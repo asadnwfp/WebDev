@@ -1,0 +1,124 @@
+    /*
+############################## 
+nav 
+##############################
+*/
+    
+    body {
+        background-color: rgb(226, 214, 238);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav {
+        align-content: center;
+        height: 1.5em;
+        padding: 0em;
+        margin: 0;
+        background-color: #464346;
+        text-align: center;
+    }
+    
+    nav>ul {
+        background-color: #464346;
+        list-style-type: none;
+        margin: 0;
+        padding: 1.2em;
+        height: 1.5em;
+        float: left;
+        width: 100%;
+    }
+    
+    .nav li {
+        display: inline;
+        color: #EEE;
+        font-weight: bold;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+    
+    .nav a:visited {
+        color: #EEE;
+    }
+    
+    .nav a:hover {
+        color: #464346;
+        background-color: #eee;
+        height: 2em;
+    }
+    /*
+############################## 
+Main Container 
+##############################
+*/
+    
+    .main-container {
+        clear: both;
+        background-color: #D0CFCF;
+        margin: 0;
+        padding: 10px 0em;
+        color: black;
+        justify-content: center;
+        height: 80vh;
+        text-align: center;
+    }
+    
+    .left-container {
+        background-color: #D0CFCF;
+        float: left;
+        width: 50%;
+    }
+    
+    .right-container {
+        padding-top: 20vh;
+        background-color: #D0CFCF;
+        float: right;
+        width: 50%;
+        display: block;
+    }
+    /*
+############################## 
+Footer 
+##############################
+*/
+    
+    .footer {
+        clear: both;
+        height: 20vh;
+        padding: 10px 0em;
+        background-color: #090809;
+        color: #EEE;
+        display: block;
+    }
+    
+    .child-footer {
+        margin-top: 0vh auto;
+        padding: 1vh auto;
+        left: 50%;
+        justify-content: center;
+    }
+    
+    .btn-footer {
+        width: 25vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+    /*
+############################## 
+buttons 
+##############################
+*/
+    
+    .btn {
+        background-color: #FF9610;
+        border-radius: 10px;
+        justify-content: center;
+        padding: 10px;
+        margin: 5px 10px;
+        color: #EEE;
+    }
+    
+    .btn:hover {
+        background-color: #EEE;
+        color: #FF9610;
+    }
