@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ag-Grid Basic Example</title>
+    <script crossorigin="anonymous" src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.js"></script>
+    <link crossorigin="anonymous" rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-grid.css">
+    <link crossorigin="anonymous" rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-alpine.css">
+
+</head>
+
+<body>
+    <button onCLick="saveState()">Save State</button>
+    <button onCLick="restoreState()">Restore State</button>
+    <button onCLick="resetState()">Reset State</button>
+    <button id="hideBMake">hide B_Make</button>
+    <button id="showBMake">show B_Make</button>
+    <div id="myGrid" style="height: 500px; width:500px;" class="ag-theme-alpine"></div>
+
+    <script src="r.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

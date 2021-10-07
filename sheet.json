@@ -1,0 +1,3322 @@
+[{
+        "name": "AKTIVA",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 3596784.07
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 3596784.07
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 3544892.65
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 3544892.65
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 3544892.65
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 3596784.07
+            }
+        },
+        "number": "1"
+    },
+    {
+        "name": "Anlagevermögen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 2766849.13
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 2766849.13
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 2784351.34
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 2784351.34
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 2784351.34
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 2766849.13
+            }
+        },
+        "number": "1.100"
+    },
+    {
+        "name": "Immaterielle Vermögensgegenstände",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 869.01
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 869.01
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 1069
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 1069
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 1069
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 869.01
+            }
+        },
+        "number": "1.100.100"
+    },
+    {
+        "name": "Selbst geschaffene gewerbliche Schutzrechte und ähnliche Rechte und Werte",
+        "balances": {},
+        "number": "1.100.100.010"
+    },
+    {
+        "name": "PASSIVA",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -43920197.97
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -43920197.97
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -5278169.33
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -5278169.33
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -5278169.33
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -43920197.97
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "3"
+    },
+    {
+        "name": "GEWINN & VERLUSTRECHNUNG",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -45815512.36
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -45815512.36
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -1733276.68
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -1733276.68
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -1733276.68
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -45815512.36
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5"
+    },
+    {
+        "name": "Fernsehrechte o.ä.",
+        "balances": {},
+        "number": "1.400"
+    },
+    {
+        "name": "Umlaufvermögen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 800860.62
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 800860.62
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 733772.51
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 733772.51
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 733772.51
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 800860.62
+            }
+        },
+        "number": "1.500"
+    },
+    {
+        "name": "Rechnungsabgrenzungsposten",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 29074.32
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 29074.32
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 26768.8
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 26768.8
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 26768.8
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 29074.32
+            }
+        },
+        "number": "1.800"
+    },
+    {
+        "name": "Aktive latente Steuern",
+        "balances": {},
+        "number": "1.830"
+    },
+    {
+        "name": "Aktiver Unterschiedsbetrag aus der Vermögensverrechnung",
+        "balances": {},
+        "number": "1.860"
+    },
+    {
+        "name": "Nicht durch Eigenkapital gedeckter Fehlbetrag",
+        "balances": {},
+        "number": "1.900"
+    },
+    {
+        "name": "Nicht durch Vermögenseinlagen gedeckter Fehlbetrag der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "1.910"
+    },
+    {
+        "name": "Nicht durch Vermögenseinlagen gedeckter Fehlbetrag der Kommanditisten",
+        "balances": {},
+        "number": "1.920"
+    },
+    {
+        "name": "Eigenkapital",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -42500816.24
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -42500816.24
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -3929915.02
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -3929915.02
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -3929915.02
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -42500816.24
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "3.100"
+    },
+    {
+        "name": "Zur Durchführung der Kapitalerhöhung geleistete Einlagen",
+        "balances": {},
+        "number": "3.150"
+    },
+    {
+        "name": "Ausgleichsposten für aktivierte eigene Anteile",
+        "balances": {},
+        "number": "3.200"
+    },
+    {
+        "name": "Sonderposten für unentgeltlich ausgegebene Emissionsberechtigungen",
+        "balances": {},
+        "number": "3.250"
+    },
+    {
+        "name": "Sonderposten mit Rücklageanteil",
+        "balances": {},
+        "number": "3.300"
+    },
+    {
+        "name": "Sonderposten für Zuwendungen",
+        "balances": {},
+        "number": "3.310"
+    },
+    {
+        "name": "Rückstellungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -270210.55
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -270210.55
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -270210.55
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -270210.55
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -270210.55
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -270210.55
+            }
+        },
+        "number": "3.500"
+    },
+    {
+        "name": "Verbindlichkeiten",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -1149171.18
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -1149171.18
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -1078043.76
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -1078043.76
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -1078043.76
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -1149171.18
+            }
+        },
+        "number": "3.600"
+    },
+    {
+        "name": "Rechnungsabgrenzungsposten",
+        "balances": {},
+        "number": "3.800"
+    },
+    {
+        "name": "Passive latente Steuern",
+        "balances": {},
+        "number": "3.830"
+    },
+    {
+        "name": "Umsatzerlöse",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -1090391.32
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -1090391.32
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -1090391.32
+            }
+        },
+        "number": "5.010"
+    },
+    {
+        "name": "Verminderung/Erhöhung des Bestands an fertigen und unfertigen Erzeugnissen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -172.27
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -172.27
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -172.27
+            }
+        },
+        "number": "5.110"
+    },
+    {
+        "name": "Andere aktivierte Eigenleistungen",
+        "balances": {},
+        "number": "5.120"
+    },
+    {
+        "name": "Gesamtleistung",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -2181127.18
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -2181127.18
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -2181127.18
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.130"
+    },
+    {
+        "name": "Sonstige betriebliche Erträge",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -882.36
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -882.36
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -882.36
+            }
+        },
+        "number": "5.140"
+    },
+    {
+        "name": "Materialaufwand",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 515117.4
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 515117.4
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 515117.4
+            }
+        },
+        "number": "5.150"
+    },
+    {
+        "name": "Rohergebnis",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -3333784.28
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -3333784.28
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -3333784.28
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.160"
+    },
+    {
+        "name": "Personalaufwand",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 360631.58
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 360631.58
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 360631.58
+            }
+        },
+        "number": "5.170"
+    },
+    {
+        "name": "Abschreibungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 25036.21
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 25036.21
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 25036.21
+            }
+        },
+        "number": "5.180"
+    },
+    {
+        "name": "Sonstige betriebliche Aufwendungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 165733.12
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 165733.12
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 165733.12
+            }
+        },
+        "number": "5.400"
+    },
+    {
+        "name": "Betriebsergebnis",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -5564766.74
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -5564766.74
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -5564766.74
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.410"
+    },
+    {
+        "name": "Erträge aus Beteiligungen",
+        "balances": {},
+        "number": "5.500"
+    },
+    {
+        "name": "Erträge aus Gewinngemeinschaften, Gewinnabführungs- und Teilgewinnabführungsverträgen",
+        "balances": {},
+        "number": "5.510"
+    },
+    {
+        "name": "Erträge aus anderen Wertpapieren und Ausleihungen des Finanzanlagevermögens",
+        "balances": {},
+        "number": "5.520"
+    },
+    {
+        "name": "Sonstige Zinsen und ähnliche Erträge",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -48.96
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -48.96
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -48.96
+            }
+        },
+        "number": "5.530"
+    },
+    {
+        "name": "Abschreibungen auf Finanzanlagen und auf Wertpapiere des Umlaufvermögens",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 1079.67
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 1079.67
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 1079.67
+            }
+        },
+        "number": "5.540"
+    },
+    {
+        "name": "Aufwendungen aus Verlustübernahme",
+        "balances": {},
+        "number": "5.550"
+    },
+    {
+        "name": "Zinsen und ähnliche Aufwendungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 10347.93
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 10347.93
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 10347.93
+            }
+        },
+        "number": "5.560"
+    },
+    {
+        "name": "Finanzergebnis",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 22757.28
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 22757.28
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 22757.28
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.590"
+    },
+    {
+        "name": "Steuern vom Einkommen und vom Ertrag",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 30675
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 30675
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 30675
+            }
+        },
+        "number": "5.640"
+    },
+    {
+        "name": "Ergebnis nach Steuern",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -11022668.92
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -11022668.92
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -11022668.92
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.645"
+    },
+    {
+        "name": "Sonstige Steuern",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 2110
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 2110
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 2110
+            }
+        },
+        "number": "5.650"
+    },
+    {
+        "name": "Erträge aus Verlustübernahme",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.680"
+    },
+    {
+        "name": "Aufgrund von Gewinngemeinschaften, Gewinnabführungs- oder Teilgewinnabführungsverträgen abgeführte Gewinne",
+        "balances": {},
+        "number": "5.690"
+    },
+    {
+        "name": "Vergütung für Genussrechtskapital",
+        "balances": {},
+        "number": "5.691"
+    },
+    {
+        "name": "Bedienung eines Besserungsscheins",
+        "balances": {},
+        "number": "5.692"
+    },
+    {
+        "name": "Sachanlagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 2715980.12
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 2715980.12
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 2733282.34
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 2733282.34
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 2733282.34
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 2715980.12
+            }
+        },
+        "number": "1.100.200"
+    },
+    {
+        "name": "Finanzanlagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 50000
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 50000
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 50000
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 50000
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 50000
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 50000
+            }
+        },
+        "number": "1.100.300"
+    },
+    {
+        "name": "Vorräte",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 186621.22
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 186621.22
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 186448.95
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 186448.95
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 186448.95
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 186621.22
+            }
+        },
+        "number": "1.500.100"
+    },
+    {
+        "name": "Forderungen und sonstige Vermögensgegenstände",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 430968.19
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 430968.19
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 293646.95
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 293646.95
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 293646.95
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 430968.19
+            }
+        },
+        "number": "1.500.200"
+    },
+    {
+        "name": "Wertpapiere",
+        "balances": {},
+        "number": "1.500.300"
+    },
+    {
+        "name": "Kassenbestand, Bundesbankguthaben, Guthaben bei Kreditinstituten und Schecks",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 183271.21
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 183271.21
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 253676.61
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 253676.61
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 253676.61
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 183271.21
+            }
+        },
+        "number": "1.500.400"
+    },
+    {
+        "name": "Nicht durch Vermögenseinlagen gedeckter Verlustanteil der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "1.910.100"
+    },
+    {
+        "name": "Nicht durch Vermögenseinlagen gedeckte Entnahmen der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "1.910.200"
+    },
+    {
+        "name": "Nicht durch Vermögenseinlagen gedeckter Verlustanteil der Kommanditisten",
+        "balances": {},
+        "number": "1.920.100"
+    },
+    {
+        "name": "Nicht durch Vermögenseinlagen gedeckte Entnahmen der Kommanditisten",
+        "balances": {},
+        "number": "1.920.200"
+    },
+    {
+        "name": "Gezeichnetes Kapital",
+        "balances": {},
+        "number": "3.100.100.010"
+    },
+    {
+        "name": "Nicht eingeforderte ausstehende Einlagen",
+        "balances": {},
+        "number": "3.100.100.020"
+    },
+    {
+        "name": "Nennbetrag/rechnerischer Wert eigener Anteile",
+        "balances": {},
+        "number": "3.100.100.030"
+    },
+    {
+        "name": "Kapitalanteile der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "3.100.300"
+    },
+    {
+        "name": "Kapitalanteile der Kommanditisten",
+        "balances": {},
+        "number": "3.100.310"
+    },
+    {
+        "name": "Gesellschafterdarlehen mit EK-Charakter",
+        "balances": {},
+        "number": "3.100.330"
+    },
+    {
+        "name": "Genussrechtskapital mit EK-Charakter",
+        "balances": {},
+        "number": "3.100.340"
+    },
+    {
+        "name": "Einlagen stiller Gesellschafter mit EK-Charakter",
+        "balances": {},
+        "number": "3.100.360"
+    },
+    {
+        "name": "Kapitalrücklage",
+        "balances": {},
+        "number": "3.100.400"
+    },
+    {
+        "name": "Rücklagen",
+        "balances": {},
+        "number": "3.100.500"
+    },
+    {
+        "name": "Gewinnrücklagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -1070000
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -1070000
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -1070000
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -1070000
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -1070000
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -1070000
+            }
+        },
+        "number": "3.100.600"
+    },
+    {
+        "name": "Eigene Anteile, die zur Einziehung bestimmt sind",
+        "balances": {},
+        "number": "3.100.650"
+    },
+    {
+        "name": "Bilanzgewinn/-verlust",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -41170816.24
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -41170816.24
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -2599915.02
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -2599915.02
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -2599915.02
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -41170816.24
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "3.100.800"
+    },
+    {
+        "name": "Nicht durch Eigenkapital gedeckter Fehlbetrag",
+        "balances": {},
+        "number": "3.100.900"
+    },
+    {
+        "name": "Rückstellungen für Pensionen und ähnliche Verpflichtungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -140462.66
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -140462.66
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -140462.66
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -140462.66
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -140462.66
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -140462.66
+            }
+        },
+        "number": "3.500.010"
+    },
+    {
+        "name": "Steuerrückstellungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -129747.89
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -129747.89
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -129747.89
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -129747.89
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -129747.89
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -129747.89
+            }
+        },
+        "number": "3.500.020"
+    },
+    {
+        "name": "Sonstige Rückstellungen",
+        "balances": {},
+        "number": "3.500.030"
+    },
+    {
+        "name": "Anleihen",
+        "balances": {},
+        "number": "3.600.010"
+    },
+    {
+        "name": "Verbindlichkeiten gegenüber Kreditinstituten",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -632055.19
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -632055.19
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -653452.02
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -653452.02
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -653452.02
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -632055.19
+            }
+        },
+        "number": "3.600.020"
+    },
+    {
+        "name": "Erhaltene Anzahlungen auf Bestellungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -31428.57
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -31428.57
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -31428.57
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -31428.57
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -31428.57
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -31428.57
+            }
+        },
+        "number": "3.600.030"
+    },
+    {
+        "name": "Verbindlichkeiten aus Lieferungen und Leistungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -167395.17
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -167395.17
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -161349.85
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -161349.85
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -161349.85
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -167395.17
+            }
+        },
+        "number": "3.600.040"
+    },
+    {
+        "name": "Verbindlichkeiten aus Zentralregulierung",
+        "balances": {},
+        "number": "3.600.050"
+    },
+    {
+        "name": "Verbindlichkeiten aus der Annahme gezogener Wechsel und der Ausstellung eigener Wechsel",
+        "balances": {},
+        "number": "3.600.060"
+    },
+    {
+        "name": "Verbindlichkeiten gegenüber verbundenen Unternehmen",
+        "balances": {},
+        "number": "3.600.070"
+    },
+    {
+        "name": "Verbindlichkeiten gegenüber Gesellschaftern",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -117800
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -117800
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -117800
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -117800
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -117800
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -117800
+            }
+        },
+        "number": "3.600.080"
+    },
+    {
+        "name": "Verbindlichkeiten gegenüber Aktionäre",
+        "balances": {},
+        "number": "3.600.090"
+    },
+    {
+        "name": "Verbindlichkeiten gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht",
+        "balances": {},
+        "number": "3.600.100"
+    },
+    {
+        "name": "Sonstige Verbindlichkeiten",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -200492.25
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -200492.25
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -114013.32
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -114013.32
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -114013.32
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -200492.25
+            }
+        },
+        "number": "3.600.110"
+    },
+    {
+        "name": "Erträge nach Artikel 67 Abs. 1 und 2 EGHGB",
+        "balances": {},
+        "number": "5.140.100"
+    },
+    {
+        "name": "Andere sonstige betriebliche Erträge",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -882.36
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -882.36
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -882.36
+            }
+        },
+        "number": "5.140.200"
+    },
+    {
+        "name": "Aufwendungen für Roh-, Hilfs- und Betriebsstoffe und für bezogene Waren",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 515117.4
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 515117.4
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 515117.4
+            }
+        },
+        "number": "5.150.010"
+    },
+    {
+        "name": "Aufwendungen für bezogene Leistungen",
+        "balances": {},
+        "number": "5.150.020"
+    },
+    {
+        "name": "Löhne und Gehälter",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 295285.6
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 295285.6
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 295285.6
+            }
+        },
+        "number": "5.170.010"
+    },
+    {
+        "name": "Soziale Abgaben und Aufwendungen für Altersversorgung und für Unterstützung",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 65345.98
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 65345.98
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 65345.98
+            }
+        },
+        "number": "5.170.020"
+    },
+    {
+        "name": "Abschreibungen auf immaterielle Vermögensgegenstände des Anlagevermögens und Sachanlagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 25036.21
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 25036.21
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 25036.21
+            }
+        },
+        "number": "5.180.010"
+    },
+    {
+        "name": "Abschreibungen auf Vermögensgegenstände des Umlaufvermögens, soweit diese die in der Kapitalgesellschaft üblichen Abschreibungen überschreiten",
+        "balances": {},
+        "number": "5.180.020"
+    },
+    {
+        "name": "Aufwendungen nach Artikel 67 Abs. 1 und 2 EGHGB",
+        "balances": {},
+        "number": "5.400.100"
+    },
+    {
+        "name": "Andere sonstige betriebliche Aufwendungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 165733.12
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 165733.12
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 165733.12
+            }
+        },
+        "number": "5.400.200"
+    },
+    {
+        "name": "Entgeltlich erworbene Konzessionen, gewerbliche Schutzrechte und ähnliche Rechte und Werte sowie Lizenzen an solchen Rechten und Werten",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 868.01
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 868.01
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 1068
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 1068
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 1068
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 868.01
+            }
+        },
+        "number": "1.100.100.020"
+    },
+    {
+        "name": "Geschäfts- oder Firmenwert",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 1
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 1
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 1
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 1
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 1
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 1
+            }
+        },
+        "number": "1.100.100.030"
+    },
+    {
+        "name": "Geleistete Anzahlungen",
+        "balances": {},
+        "number": "1.100.100.040"
+    },
+    {
+        "name": "Grundstücke, grundstücksgleiche Rechte und Bauten einschließlich der Bauten auf fremden Grundstücken",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 2542470.87
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 2542470.87
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 2552991.83
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 2552991.83
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 2552991.83
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 2542470.87
+            }
+        },
+        "number": "1.100.200.010"
+    },
+    {
+        "name": "Technische Anlagen und Maschinen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 127457.96
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 127457.96
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 131307
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 131307
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 131307
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 127457.96
+            }
+        },
+        "number": "1.100.200.020"
+    },
+    {
+        "name": "Andere Anlagen, Betriebs- und Geschäftsausstattung",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 46051.29
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 46051.29
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 48983.51
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 48983.51
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 48983.51
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 46051.29
+            }
+        },
+        "number": "1.100.200.030"
+    },
+    {
+        "name": "Geleistete Anzahlungen und Anlagen im Bau",
+        "balances": {},
+        "number": "1.100.200.040"
+    },
+    {
+        "name": "Anteile an verbundenen Unternehmen",
+        "balances": {},
+        "number": "1.100.300.010"
+    },
+    {
+        "name": "Ausleihungen an verbundene Unternehmen",
+        "balances": {},
+        "number": "1.100.300.020"
+    },
+    {
+        "name": "Ausleihungen an Gesellschafter",
+        "balances": {},
+        "number": "1.100.300.030"
+    },
+    {
+        "name": "Ausleihungen an Aktionäre",
+        "balances": {},
+        "number": "1.100.300.040"
+    },
+    {
+        "name": "Beteiligungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 10000
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 10000
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 10000
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 10000
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 10000
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 10000
+            }
+        },
+        "number": "1.100.300.050"
+    },
+    {
+        "name": "Beteiligungen an assoziierten Unternehmen",
+        "balances": {},
+        "number": "1.100.300.055"
+    },
+    {
+        "name": "Ausleihungen an Unternehmen, mit denen ein Beteiligungsverhältnis besteht",
+        "balances": {},
+        "number": "1.100.300.060"
+    },
+    {
+        "name": "Geschäftsguthaben bei Genossenschaften",
+        "balances": {},
+        "number": "1.100.300.070"
+    },
+    {
+        "name": "Wertpapiere des Anlagevermögens",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 40000
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 40000
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 40000
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 40000
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 40000
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 40000
+            }
+        },
+        "number": "1.100.300.080"
+    },
+    {
+        "name": "Sonstige Ausleihungen",
+        "balances": {},
+        "number": "1.100.300.090"
+    },
+    {
+        "name": "Roh-, Hilfs- und Betriebsstoffe",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 109519.65
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 109519.65
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 109519.65
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 109519.65
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 109519.65
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 109519.65
+            }
+        },
+        "number": "1.500.100.010"
+    },
+    {
+        "name": "Unfertige Erzeugnisse, unfertige Leistungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 25369.57
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 25369.57
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 25197.3
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 25197.3
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 25197.3
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 25369.57
+            }
+        },
+        "number": "1.500.100.020"
+    },
+    {
+        "name": "Fertige Erzeugnisse und Waren",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 51732
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 51732
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 51732
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 51732
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 51732
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 51732
+            }
+        },
+        "number": "1.500.100.030"
+    },
+    {
+        "name": "Geleistete Anzahlungen",
+        "balances": {},
+        "number": "1.500.100.040"
+    },
+    {
+        "name": "Sonstige Vorräte",
+        "balances": {},
+        "number": "1.500.100.045"
+    },
+    {
+        "name": "Erhaltene Anzahlungen auf Bestellungen",
+        "balances": {},
+        "number": "1.500.100.050"
+    },
+    {
+        "name": "Forderungen aus Lieferungen und Leistungen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 237938.1
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 237938.1
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 210387.23
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 210387.23
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 210387.23
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 237938.1
+            }
+        },
+        "number": "1.500.200.010"
+    },
+    {
+        "name": "Forderungen aus Zentralregulierung",
+        "balances": {},
+        "number": "1.500.200.020"
+    },
+    {
+        "name": "Forderungen gegen verbundene Unternehmen",
+        "balances": {},
+        "number": "1.500.200.030"
+    },
+    {
+        "name": "Forderungen gegen Gesellschafter",
+        "balances": {},
+        "number": "1.500.200.040"
+    },
+    {
+        "name": "Forderungen an Aktionäre",
+        "balances": {},
+        "number": "1.500.200.050"
+    },
+    {
+        "name": "Forderungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht",
+        "balances": {},
+        "number": "1.500.200.060"
+    },
+    {
+        "name": "Eingeforderte ausstehende Einlagen",
+        "balances": {},
+        "number": "1.500.200.070"
+    },
+    {
+        "name": "Eingeforderte Nachschüsse",
+        "balances": {},
+        "number": "1.500.200.080"
+    },
+    {
+        "name": "Einzahlungsverpflichtungen persönlich haftender Gesellschafter",
+        "balances": {},
+        "number": "1.500.200.090"
+    },
+    {
+        "name": "Einzahlungsverpflichtungen Kommanditisten",
+        "balances": {},
+        "number": "1.500.200.091"
+    },
+    {
+        "name": "Sonstige Vermögensgegenstände",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 193030.09
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 193030.09
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 83259.72
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 83259.72
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 83259.72
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 193030.09
+            }
+        },
+        "number": "1.500.200.100"
+    },
+    {
+        "name": "Anteile an verbundenen Unternehmen",
+        "balances": {},
+        "number": "1.500.300.010"
+    },
+    {
+        "name": "Sonstige Wertpapiere",
+        "balances": {},
+        "number": "1.500.300.020"
+    },
+    {
+        "name": "Rücklagen der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "3.100.500.010"
+    },
+    {
+        "name": "Rücklagen des Kommanditisten",
+        "balances": {},
+        "number": "3.100.500.020"
+    },
+    {
+        "name": "Gesetzliche Rücklage",
+        "balances": {},
+        "number": "3.100.600.100"
+    },
+    {
+        "name": "Rücklage für Anteile an einem herrschenden oder mehrheitlich beteiligten Unternehmen",
+        "balances": {},
+        "number": "3.100.600.110"
+    },
+    {
+        "name": "Satzungsmäßige Rücklagen",
+        "balances": {},
+        "number": "3.100.600.120"
+    },
+    {
+        "name": "Andere Gewinnrücklagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -1070000
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -1070000
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -1070000
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -1070000
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -1070000
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -1070000
+            }
+        },
+        "number": "3.100.600.130"
+    },
+    {
+        "name": "Gewinn-/Verlustvortrag",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -866638.34
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -866638.34
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -866638.34
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -866638.34
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -866638.34
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -866638.34
+            }
+        },
+        "number": "3.100.800.010"
+    },
+    {
+        "name": "Jahresüberschuss/-fehlbetrag",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -40304177.9
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -40304177.9
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -1733276.68
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -1733276.68
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -1733276.68
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -40304177.9
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "3.100.800.020"
+    },
+    {
+        "name": "Ergebnisverwendung",
+        "balances": {},
+        "number": "3.100.800.100"
+    },
+    {
+        "name": "Gezeichnetes Kapital",
+        "balances": {},
+        "number": "3.100.100"
+    },
+    {
+        "name": "Anlagevermögen",
+        "balances": {},
+        "number": "1.101"
+    },
+    {
+        "name": "Umlaufvermögen",
+        "balances": {},
+        "number": "1.501"
+    },
+    {
+        "name": "Rechnungsabgrenzungsposten",
+        "balances": {},
+        "number": "1.801"
+    },
+    {
+        "name": "Aktive latente Steuern",
+        "balances": {},
+        "number": "1.831"
+    },
+    {
+        "name": "Aktiver Unterschiedsbetrag",
+        "balances": {},
+        "number": "1.861"
+    },
+    {
+        "name": "Nicht durch Eigenkapital gedeckter Fehlbetrag",
+        "balances": {},
+        "number": "1.901"
+    },
+    {
+        "name": "Nicht durch Vermögenseinlagen gedeckter Fehlbetrag der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "1.911"
+    },
+    {
+        "name": "Nicht durch Vermögenseinlagen gedeckter Fehlbetrag der Kommanditisten",
+        "balances": {},
+        "number": "1.921"
+    },
+    {
+        "name": "Nicht durch Konzerneigenkapital gedeckter Fehlbetrag",
+        "balances": {},
+        "number": "1.930"
+    },
+    {
+        "name": "Passiver Unterschiedsbetrag aus der Kapitalkonsolidierung (Fremdkapital)",
+        "balances": {},
+        "number": "3.120"
+    },
+    {
+        "name": "Jahresüberschuss/-fehlbetrag",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -22041117.84
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -22041117.84
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -22041117.84
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.700"
+    },
+    {
+        "name": "Gewinnvortrag/Verlustvortrag aus dem Vorjahr",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -866638.34
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -866638.34
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -866638.34
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -866638.34
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -866638.34
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -866638.34
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.710"
+    },
+    {
+        "name": "Vermögensminderung aufgrund Abspaltung",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.715"
+    },
+    {
+        "name": "Ertrag aufgrund höherer Bewertung gemäß dem Ergebnis der Sonderprüfung/gemäß gerichtlicher Entscheidung",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.716"
+    },
+    {
+        "name": "Ergebnisverwendung",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.720"
+    },
+    {
+        "name": "Entnahmen aus der Kapitalrücklage",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.730"
+    },
+    {
+        "name": "Entnahmen aus Gewinnrücklagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.740"
+    },
+    {
+        "name": "Entnahmen aus Genussrechtskapital",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.741"
+    },
+    {
+        "name": "Ertrag aus der Kapitalherabsetzung",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.742"
+    },
+    {
+        "name": "Einstellung in die Kapitalrücklage nach den Vorschriften über die vereinfachte Kapitalherabsetzung und im Fall der vereinfachten Einziehung",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.745"
+    },
+    {
+        "name": "Einstellungen in Gewinnrücklagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.750"
+    },
+    {
+        "name": "Wiederauffüllung des Genussrechtskapital",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.751"
+    },
+    {
+        "name": "Aufwand aus dem Erwerb eigener Anteile",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.752"
+    },
+    {
+        "name": "Einstellung in Rücklagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.770"
+    },
+    {
+        "name": "Gutschrift des Ergebnisanteils der persönlich haftenden Gesellschafter",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.780"
+    },
+    {
+        "name": "Bilanzgewinn/-verlust",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": -45815512.36
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": -45815512.36
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": -1733276.68
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": -1733276.68
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": -1733276.68
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": -45815512.36
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.800"
+    },
+    {
+        "name": "Konzernbilanzgewinn/-verlust",
+        "balances": {},
+        "number": "3.100.700"
+    },
+    {
+        "name": "Kumuliertes übriges Konzernergebnis des Mutterunternehmens",
+        "balances": {},
+        "number": "3.100.810"
+    },
+    {
+        "name": "Nicht beherrschende Anteile",
+        "balances": {},
+        "number": "3.100.820"
+    },
+    {
+        "name": "Nicht durch Konzerneigenkapital gedeckter Fehlbetrag",
+        "balances": {},
+        "number": "3.100.930"
+    },
+    {
+        "name": "aus der gesetzlichen Rücklage",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.740.010"
+    },
+    {
+        "name": "aus der Rücklage für Anteile an dem herrschenden oder mit Mehrheit beteiligten Unternehmen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.740.020"
+    },
+    {
+        "name": "aus der satzungsmäßigen Rücklagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.740.030"
+    },
+    {
+        "name": "aus anderen Gewinnrücklagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.740.040"
+    },
+    {
+        "name": "in die gesetzliche Rücklage",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.750.010"
+    },
+    {
+        "name": "in die Rücklage für Anteile an dem herrschenden oder mit Mehrheit beteiligten Unternehmen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.750.020"
+    },
+    {
+        "name": "in satzungsmäßige Rücklagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.750.030"
+    },
+    {
+        "name": "in andere Gewinnrücklagen",
+        "balances": {
+            "com.caseware.tb.final.0;report;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;report,financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;financial_statement_aje;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report,financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;normal_aje,reclassifying_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;report;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;preliminary;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;preliminary;0,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.-1;financial_statement_aje;-1,0": {
+                "amount": 0
+            },
+            "com.caseware.tb.final.0;normal_aje,reclassifying_aje;0,0": {
+                "amount": 0
+            }
+        },
+        "number": "5.750.040"
+    },
+    {
+        "name": "Festkapital der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "3.100.300.010"
+    },
+    {
+        "name": "Nicht eingeforderte ausstehende Einlagen der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "3.100.300.020"
+    },
+    {
+        "name": "Eingefordertes Kapital der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "3.100.300.030"
+    },
+    {
+        "name": "Variables Kapital der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "3.100.300.040"
+    },
+    {
+        "name": "Nicht durch Vermögenseinlagen gedeckter Fehlbetrag der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "3.100.300.050"
+    },
+    {
+        "name": "Festkapital der Kommanditisten",
+        "balances": {},
+        "number": "3.100.310.010"
+    },
+    {
+        "name": "Nicht eingeforderte ausstehende Einlagen der Kommanditisten",
+        "balances": {},
+        "number": "3.100.310.020"
+    },
+    {
+        "name": "Eingefordertes Kapital der Kommanditisten",
+        "balances": {},
+        "number": "3.100.310.030"
+    },
+    {
+        "name": "Variables Kapital der Kommanditisten",
+        "balances": {},
+        "number": "3.100.310.040"
+    },
+    {
+        "name": "Nicht durch Vermögenseinlagen gedeckter Fehlbetrag der Kommanditisten",
+        "balances": {},
+        "number": "3.100.310.050"
+    },
+    {
+        "name": "Agio bei Ausgabe von Anteilen",
+        "balances": {},
+        "number": "3.100.400.100"
+    },
+    {
+        "name": "Agio bei Ausgabe von Schuldverschreibungen für Wandlungsrechte und Optionsrechte zum Erwerb von Anteilen",
+        "balances": {},
+        "number": "3.100.400.110"
+    },
+    {
+        "name": "Zuzahlungen bei Gewährung von Vorzügen",
+        "balances": {},
+        "number": "3.100.400.120"
+    },
+    {
+        "name": "Andere Zuzahlungen in das Eigenkapital",
+        "balances": {},
+        "number": "3.100.400.130"
+    },
+    {
+        "name": "Rücklage für eingeforderte Nachschüsse",
+        "balances": {},
+        "number": "3.100.400.140"
+    },
+    {
+        "name": "Rücklage aus Kapitalherabsetzung (AG)",
+        "balances": {},
+        "number": "3.100.400.150"
+    },
+    {
+        "name": "Konzerngewinnvortrag/-verlustvortrag",
+        "balances": {},
+        "number": "3.100.700.010"
+    },
+    {
+        "name": "Konzernjahresüberschuss/-fehlbetrag",
+        "balances": {},
+        "number": "3.100.700.020"
+    },
+    {
+        "name": "Anteil nicht beherrschender Anteile am Konzernergebnis",
+        "balances": {},
+        "number": "3.100.700.025"
+    },
+    {
+        "name": "Ergebnisverwendung",
+        "balances": {},
+        "number": "3.100.700.100"
+    },
+    {
+        "name": "Entnahmen aus der Kapitalrücklage",
+        "balances": {},
+        "number": "3.100.700.200"
+    },
+    {
+        "name": "Entnahmen aus Gewinnrücklagen",
+        "balances": {},
+        "number": "3.100.700.210"
+    },
+    {
+        "name": "Einstellungen in Gewinnrücklagen",
+        "balances": {},
+        "number": "3.100.700.220"
+    },
+    {
+        "name": "Einstellung in Rücklagen",
+        "balances": {},
+        "number": "3.100.700.230"
+    },
+    {
+        "name": "Gutschrift des Ergebnisanteils der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "3.100.700.320"
+    },
+    {
+        "name": "Gutschrift des Ergebnisanteils der Kommanditisten",
+        "balances": {},
+        "number": "3.100.700.330"
+    },
+    {
+        "name": "Vermögensminderung aufgrund Abspaltung",
+        "balances": {},
+        "number": "3.100.800.025"
+    },
+    {
+        "name": "Ertrag aufgrund höherer Bewertung gemäß dem Ergebnis der Sonderprüfung/gemäß gerichtlicher Entscheidung",
+        "balances": {},
+        "number": "3.100.800.050"
+    },
+    {
+        "name": "Entnahmen aus der Kapitalrücklage",
+        "balances": {},
+        "number": "3.100.800.200"
+    },
+    {
+        "name": "Entnahmen aus Gewinnrücklagen",
+        "balances": {},
+        "number": "3.100.800.210"
+    },
+    {
+        "name": "Entnahme aus Genussrechtskapital",
+        "balances": {},
+        "number": "3.100.800.211"
+    },
+    {
+        "name": "Ertrag aus der Kapitalherabsetzung",
+        "balances": {},
+        "number": "3.100.800.212"
+    },
+    {
+        "name": "Einstellung in die Kapitalrücklage nach den Vorschriften über die vereinfachte Kapitalherabsetzung und im Fall der vereinfachten Einziehung",
+        "balances": {},
+        "number": "3.100.800.213"
+    },
+    {
+        "name": "Einstellungen in Gewinnrücklagen",
+        "balances": {},
+        "number": "3.100.800.220"
+    },
+    {
+        "name": "Wiederauffüllung des Genussrechtskapitals",
+        "balances": {},
+        "number": "3.100.800.225"
+    },
+    {
+        "name": "Aufwand aus dem Erwerb eigener Anteile",
+        "balances": {},
+        "number": "3.100.800.230"
+    },
+    {
+        "name": "Pauschalierter Steueraufwand der Gesellschafter",
+        "balances": {},
+        "number": "3.100.800.300"
+    },
+    {
+        "name": "Einstellung in Rücklagen",
+        "balances": {},
+        "number": "3.100.800.310"
+    },
+    {
+        "name": "Gutschrift des Ergebnisanteils der persönlich haftenden Gesellschafter",
+        "balances": {},
+        "number": "3.100.800.320"
+    },
+    {
+        "name": "Gutschrift des Ergebnisanteils des Kommanditisten",
+        "balances": {},
+        "number": "3.100.800.330"
+    },
+    {
+        "name": "Belastung des Jahresfehlbetrages auf Verlustvortragskonten der Gesellschafter",
+        "balances": {},
+        "number": "3.100.800.340"
+    },
+    {
+        "name": "Ausgleichsposten aus der Fremdwährungsumrechnung des Mutterunternehmens",
+        "balances": {},
+        "number": "3.100.810.010"
+    },
+    {
+        "name": "Andere neutrale Transaktionen der Gesellschafter des Mutterunternehmens",
+        "balances": {},
+        "number": "3.100.810.020"
+    },
+    {
+        "name": "Minderheitenkapital",
+        "balances": {},
+        "number": "3.100.820.100"
+    },
+    {
+        "name": "Kumuliertes übriges Konzernergebnis der Minderheitsgesellschafter",
+        "balances": {},
+        "number": "3.100.820.200"
+    },
+    {
+        "name": "Gezeichnetes Kapital - Stammkapital",
+        "balances": {},
+        "number": "3.100.100.010.100"
+    },
+    {
+        "name": "Gezeichnetes Kapital - Stammaktien",
+        "balances": {},
+        "number": "3.100.100.010.150"
+    },
+    {
+        "name": "Gezeichnetes Kapital - Vorzugsaktien",
+        "balances": {},
+        "number": "3.100.100.010.200"
+    },
+    {
+        "name": "Nicht eingeforderte ausstehende Einlagen auf Stammkapital",
+        "balances": {},
+        "number": "3.100.100.020.100"
+    },
+    {
+        "name": "Nicht eingeforderte ausstehende Einlagen auf  Stammaktien",
+        "balances": {},
+        "number": "3.100.100.020.150"
+    },
+    {
+        "name": "Nicht eingeforderte ausstehende Einlagen auf Vorzugsaktien",
+        "balances": {},
+        "number": "3.100.100.020.200"
+    },
+    {
+        "name": "Eigene Anteile - Stammkapital",
+        "balances": {},
+        "number": "3.100.100.030.100"
+    },
+    {
+        "name": "Eigene Anteile - Stammaktien",
+        "balances": {},
+        "number": "3.100.100.030.150"
+    },
+    {
+        "name": "Eigene Anteile - Vorzugsaktien",
+        "balances": {},
+        "number": "3.100.100.030.200"
+    },
+    {
+        "name": "Gewinnrücklage mit Ausschüttungssperre für aktive latente Steuern",
+        "balances": {},
+        "number": "3.100.600.130.010"
+    },
+    {
+        "name": "Gewinnrücklage mit Ausschüttungssperre für selbst geschaffene immaterielle Vermögensgegenstände des Anlagevermögens unter Berücksichtigung der darauf entfallenden passiven latenten Steuern",
+        "balances": {},
+        "number": "3.100.600.130.020"
+    },
+    {
+        "name": "Gewinnrücklage mit Ausschüttungssperre für zum beizulegenden Zeitwert bilanzierte Vermögensgegenstände, soweit dieser die Anschaffungskosten übersteigt unter Berücksichtigung der darauf entfallenden passiven latenten Steuern",
+        "balances": {},
+        "number": "3.100.600.130.030"
+    },
+    {
+        "name": "Sonstige ausschüttungsgesperrte Rücklagen",
+        "balances": {},
+        "number": "3.100.600.130.040"
+    },
+    {
+        "name": "aus der gesetzlichen Rücklage",
+        "balances": {},
+        "number": "3.100.800.210.010"
+    },
+    {
+        "name": "aus der Rücklage für Anteile an dem herrschenden oder mit Mehrheit beteiligten Unternehmen",
+        "balances": {},
+        "number": "3.100.800.210.020"
+    },
+    {
+        "name": "aus der satzungsmäßigen Rücklagen",
+        "balances": {},
+        "number": "3.100.800.210.030"
+    },
+    {
+        "name": "aus anderen Gewinnrücklagen",
+        "balances": {},
+        "number": "3.100.800.210.040"
+    },
+    {
+        "name": "in die gesetzliche Rücklage",
+        "balances": {},
+        "number": "3.100.800.220.010"
+    },
+    {
+        "name": "in die Rücklage für Anteile an dem herrschenden oder mit Mehrheit beteiligten Unternehmen",
+        "balances": {},
+        "number": "3.100.800.220.020"
+    },
+    {
+        "name": "in satzungsmäßige Rücklagen",
+        "balances": {},
+        "number": "3.100.800.220.030"
+    },
+    {
+        "name": "in andere Gewinnrücklagen",
+        "balances": {},
+        "number": "3.100.800.220.040"
+    },
+    {
+        "name": "Anteil am Kapital",
+        "balances": {},
+        "number": "3.100.820.100.010"
+    },
+    {
+        "name": "Anteile am Konzernjahresüberschuss/-fehlbetrag",
+        "balances": {},
+        "number": "3.100.820.100.020"
+    },
+    {
+        "name": "Ausgleichsposten aus der Fremdwährungsumrechnung der Minderheitsgesellschafter",
+        "balances": {},
+        "number": "3.100.820.200.010"
+    },
+    {
+        "name": "Andere neutrale Transaktionen der Minderheitsgesellschafter",
+        "balances": {},
+        "number": "3.100.820.200.020"
+    }
+]
