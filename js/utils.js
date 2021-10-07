@@ -136,6 +136,9 @@ function consoleLog(message) {
 
 
 
-
-
-// export { callback_balanaceSheet as balanceSheet };
+function consoleLog(methodName, message) {
+    const debug = true;
+    if (debug) {
+        console.log(methodName + " : " + message);
+    }
+}
