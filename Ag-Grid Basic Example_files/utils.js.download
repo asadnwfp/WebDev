@@ -40,21 +40,6 @@ function callback_readSheet() {
 
 }
 
-function createBalanceSheetSync() {
-    let sheet = fs.readFileSync('../json/sheet.json', 'utf-8');
-    const tags = JSON.parse(sheet);
-    balanceSheet = [];
-    tags.forEach(tag => {
-        let numSys = tag.number.toString().split('.');
-        let num = parseInt(numSys[0]);
-        if (num == 1 || num == 3) {
-            balanceSheet.push(tag);
-        }
-    })
-
-    fs.writeFileSync('../json/balanceSheet.json', JSON.stringify(balanceSheet));
-}
-
 
 
 function callback_balanaceSheet() {
@@ -139,12 +124,12 @@ function writeFile(fileName, data) {
 debug = true;
 makefile = false;
 consoleLog("StartingConsole");
-createBalanceSheetSync();
-// const sheet = readBalanaceSheetSync();
-// consoleLog("BalanceSheet Elements: " + sheet.length);
+// callback_readSheet();
+const sheet = readBalanaceSheetSync();
+consoleLog("BalanceSheet Elements: " + sheet.length);
 
-// writeFile("activa.json", JSON.stringify(sheet[0]));
-// writeFile("passiva.json", JSON.stringify(sheet[1]));
+writeFile("activa.json", JSON.stringify(sheet[0]));
+writeFile("passiva.json", JSON.stringify(sheet[1]));
 
 function consoleLog(message) {
     if (debug) {

@@ -1,0 +1,155 @@
+[{
+        "number": 1,
+        "name": "AKTIVA",
+        "finalBalance": 3596784.07,
+        "priorBalance": 3544892.65,
+        "properties": {}
+    },
+    {
+        "number": 1.1,
+        "name": "Anlagevermögen",
+        "finalBalance": 2766849.13,
+        "priorBalance": 2784351.34,
+        "properties": {}
+    },
+    {
+        "number": "1.100.100",
+        "name": "Immaterielle Vermögensgegenstände",
+        "finalBalance": 869.01,
+        "priorBalance": 1069,
+        "properties": {}
+    },
+    {
+        "number": "1.100.100.020",
+        "name": "Entgeltlich erworbene Konzessionen, gewerbliche Schutzrechte und ähnliche Rechte und Werte sowie Lizenzen an solchen Rechten und Werten",
+        "finalBalance": 868.01,
+        "priorBalance": 1068,
+        "properties": {}
+    },
+    {
+        "number": "1.100.100.030",
+        "name": "Geschäfts- oder Firmenwert",
+        "finalBalance": 1,
+        "priorBalance": 1,
+        "properties": {}
+    },
+    {
+        "number": "1.100.200",
+        "name": "Sachanlagen",
+        "finalBalance": 2715980.12,
+        "priorBalance": 2733282.34,
+        "properties": {}
+    },
+    {
+        "number": "1.100.200.010",
+        "name": "Grundstücke, grundstücksgleiche Rechte und Bauten einschließlich der Bauten auf fremden Grundstücken",
+        "finalBalance": 2542470.87,
+        "priorBalance": 2552991.83,
+        "properties": {}
+    },
+    {
+        "number": "1.100.200.020",
+        "name": "Technische Anlagen und Maschinen",
+        "finalBalance": 127457.96,
+        "priorBalance": 131307,
+        "properties": {}
+    },
+    {
+        "number": "1.100.200.030",
+        "name": "Andere Anlagen, Betriebs- und Geschäftsausstattung",
+        "finalBalance": 46051.29,
+        "priorBalance": 48983.51,
+        "properties": {}
+    },
+    {
+        "number": "1.100.300",
+        "name": "Finanzanlagen",
+        "finalBalance": 50000,
+        "priorBalance": 50000,
+        "properties": {}
+    },
+    {
+        "number": "1.100.300.050",
+        "name": "Beteiligungen",
+        "finalBalance": 10000,
+        "priorBalance": 10000,
+        "properties": {}
+    },
+    {
+        "number": "1.100.300.080",
+        "name": "Wertpapiere des Anlagevermögens",
+        "finalBalance": 40000,
+        "priorBalance": 40000,
+        "properties": {}
+    },
+    {
+        "number": 1.5,
+        "name": "Umlaufvermögen",
+        "finalBalance": 800860.62,
+        "priorBalance": 733772.51,
+        "properties": {}
+    },
+    {
+        "number": "1.500.100",
+        "name": "Vorräte",
+        "finalBalance": 186621.22,
+        "priorBalance": 186448.95,
+        "properties": {}
+    },
+    {
+        "number": "1.500.100.010",
+        "name": "Roh-, Hilfs- und Betriebsstoffe",
+        "finalBalance": 109519.65,
+        "priorBalance": 109519.65,
+        "properties": {}
+    },
+    {
+        "number": "1.500.100.020",
+        "name": "Unfertige Erzeugnisse, unfertige Leistungen",
+        "finalBalance": 25369.57,
+        "priorBalance": 25197.3,
+        "properties": {}
+    },
+    {
+        "number": "1.500.100.030",
+        "name": "Fertige Erzeugnisse und Waren",
+        "finalBalance": 51732,
+        "priorBalance": 51732,
+        "properties": {}
+    },
+    {
+        "number": "1.500.200",
+        "name": "Forderungen und sonstige Vermögensgegenstände",
+        "finalBalance": 430968.19,
+        "priorBalance": 293646.95,
+        "properties": {}
+    },
+    {
+        "number": "1.500.200.010",
+        "name": "Forderungen aus Lieferungen und Leistungen",
+        "finalBalance": 237938.1,
+        "priorBalance": 210387.23,
+        "properties": {}
+    },
+    {
+        "number": "1.500.200.100",
+        "name": "Sonstige Vermögensgegenstände",
+        "finalBalance": 193030.09,
+        "priorBalance": 83259.72,
+        "properties": {}
+    },
+    {
+        "number": "1.500.400",
+        "name": "Kassenbestand, Bundesbankguthaben, Guthaben bei Kreditinstituten und Schecks",
+        "finalBalance": 183271.21,
+        "priorBalance": 253676.61,
+        "properties": {}
+    },
+    {
+        "number": 1.8,
+        "name": "Rechnungsabgrenzungsposten",
+        "finalBalance": 29074.32,
+        "priorBalance": 26768.8,
+        "properties": {}
+    }
+]

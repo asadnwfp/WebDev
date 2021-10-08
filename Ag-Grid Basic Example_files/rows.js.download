@@ -1,0 +1,103 @@
+let rowData = [];
+const rowMapActiva = new Map();
+const rowMapPassiva = new Map();
+
+const toRoman = (num, i = "I", v = "V", x = "X", l = "L", c = "C", d = "D", m = "M") =>
+    num ? toRoman(num / 10 | 0, x, l, c, d, m, "?", "?", num %= 10) +
+    (i + ["", v, x][++num / 5 | 0] + i.repeat(num % 5)).replace(/^(.)(.*)\1/, "$2") :
+    "";
+
+function createRowMap() {
+    activas.forEach(activa => {
+        let make = activa.name;
+        let price = activa.number
+        rowMapActiva.set(price, make)
+            // rowData.push(make, price);
+    });
+
+    passivas.forEach(passiva => {
+        let make = passiva.name;
+        let price = passiva.number
+        rowMapPassiva.set(price, make)
+            // rowData.push(make, price);
+    });
+
+    consoleLog('createRowMap(): rowMapActiva', rowMapActiva.size);
+    consoleLog('createRowMap(): rowMapPassiva', rowMapPassiva.size);
+    createRowdataActiva();
+    createRowdataPassiva();
+    setupGrid(rowData);
+}
+
+
+function createRowdataActiva() {
+    rowMapActiva.forEach((name, num) => {
+        let split = num.toString().split('.');
+        let listCounter = "";
+        let indent = "";
+        switch (split.length) {
+            case 1:
+                listCounter = String.fromCharCode(parseInt(split[0]) + 64);
+                indent = 1;
+                break;
+            case 2:
+                listCounter = toRoman(parseInt(split[1]));
+                indent = 2;
+                break;
+            case 3:
+                listCounter = parseInt(split[2]);
+                indent = 3;
+                break;
+            default:
+                listCounter = parseInt(split[split.length - 1]);;
+                indent = 4;
+
+        }
+
+        var row = {
+            name: name,
+            num: listCounter
+        }
+        rowData.push(row);
+        // consoleLog('createRowdataActiva()', JSON.stringify(row))
+    })
+
+    // consoleLog('createRowdataActiva()', JSON.stringify(rowData))
+
+}
+
+function createRowdataPassiva() {
+    rowMapPassiva.forEach((name, num) => {
+        let split = num.toString().split('.');
+        let listCounter = "";
+        let indent = "";
+        switch (split.length) {
+            case 1:
+                listCounter = String.fromCharCode(parseInt(split[0]) + 64);
+                indent = 1;
+                break;
+            case 2:
+                listCounter = toRoman(parseInt(split[1]));
+                indent = 2;
+                break;
+            case 3:
+                listCounter = parseInt(split[2]);
+                indent = 3;
+                break;
+            default:
+                listCounter = parseInt(split[split.length - 1]);;
+                indent = 4;
+
+        }
+
+        var row = {
+            "name-p": name,
+            "Num Pasiva": listCounter
+        }
+        rowData.push(row);
+        // consoleLog('createRowdataPassiva()', JSON.stringify(row))
+    })
+
+    // consoleLog('createRowdataPassiva()', JSON.stringify(rowData))
+
+}
