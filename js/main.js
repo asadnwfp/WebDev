@@ -70,6 +70,7 @@ let gridOptions = {}
 function setupGrid(rowData) {
 
     gridOptions = {
+        rowStyle: { background: 'black', color: '#fff' },
         columnDefs: columnDefs,
         rowData: rowData,
         headerHeight: 70,
