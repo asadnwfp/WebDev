@@ -70,17 +70,16 @@ let gridOptions = {}
 function setupGrid(rowData) {
 
     gridOptions = {
-        rowStyle: {
-            background: '#fff',
-            color: '#000',
-            border: '1',
-        },
+
+
+
         columnDefs: columnDefs,
         rowData: rowData,
         headerHeight: 70,
         defaultColDef: defaultColDef,
         columnTypes: custColumnTypes,
         debug: false,
+        rowClass: 'rows-in-grid',
 
     };
 
@@ -94,14 +93,6 @@ function setupGrid(rowData) {
     consoleLog('ConsoleMessage SetupGrid()', allColumns);
     consoleLog('ConsoleMessage SetupGrid()', nameColumn);
     gridOptions.columnApi.moveColumn(nameColumn, 1);
-    // gridOptions.api.forEachNode((data) => {
-    //     consoleLog("RowNode: ", data)
-    // })
-    let rowNode = gridOptions.api.getRowNode('0')
-    consoleLog("RowNode: ", rowNode)
-    consoleLog("RowNodeData: ", JSON.stringify(rowNode.data));
-    consoleLog("RowNodeData-name: ", rowNode.data.name);
-    consoleLog("RowNodeData-style: ", rowNode.data.style);
-    consoleLog("RowNodeData-gain: ", rowNode.data.gain);
+
 
 }

@@ -1,8 +1,80 @@
 //Default Col Def
 const defaultColDef = {
-    width: 150,
+    width: 200,
     editable: false,
-    colSpan: params => params.data.indent
+    colSpan: params => {
+        let cid = params.column.colId;
+        let field = params.column.userProvidedColDef.field;
+        let listIndent = params.data.listIndent;
+        if (params.node.rowIndex == 3) {
+            //Here It Is
+            let x = 123;
+        }
+        if (cid == '0' || listIndent == cid) {
+            params.column.actualWidth = 50;
+            params.column.minWidth = 45;
+            return 0;
+        } else if (parseInt(cid) == listIndent + 1) {
+            switch (listIndent) {
+                case 0:
+
+                    return 4;
+                case 1:
+                    return 3;
+                case 2:
+                    return 2;
+                case 3:
+                    return 1;
+                default:
+                    return 1;
+
+            }
+        } else if (field == 'py' && listIndent == 0) {
+            // for EUR and Date CellSpan
+            return 2;
+        }
+
+        // DefaultCase for all
+        return 0;
+
+    },
+    cellClassRules: {
+        'bold-text': params => {
+
+            colId = params.colDef.colId;
+            listIndent = params.data.listIndent;
+            switch (listIndent) {
+                case 0:
+                    return true;
+
+                case 1:
+                    return true;
+                case 2:
+                    if (colId == 7) {
+                        return true;
+                    }
+
+            };
+        },
+        'content': params => {
+            colId = params.colDef.colId;
+            listIndent = params.data.listIndent;
+            switch (listIndent) {
+                case 2:
+                    if (colId == 3) {
+                        return true;
+                    }
+                    break;
+
+                case 3:
+                    if (colId == 4) {
+                        return true;
+                    }
+                    break;
+
+            };
+        }
+    }
 };
 
 // CustomColumnTypes
@@ -18,9 +90,15 @@ const columnDefs = [
     // { field: "name", colId: "2", width: 300, colSpan: params => params.data.indent },
     { field: "name", colId: "2", width: 100 },
     { field: "i2", colId: "3", width: 100, },
-    { field: "i3", colId: "4", width: 200 },
-    { field: "py", colId: "py" },
-    { field: "balance", colId: "balance" },
-    { field: "cy", colId: "cy" },
+    {
+        field: "i3",
+        colId: "4",
+        width: 450,
+        wrapText: true,
+        autoHeight: true,
+    },
+    { field: "py", colId: "4", width: 130, },
+    { field: "balance", colId: "5", width: 130, },
+    { field: "cy", colId: "6", width: 130, },
 
 ];

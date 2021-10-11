@@ -33,7 +33,8 @@ let aktiva = {
     indent: 5,
     num: "AKTIVA",
     py: "someDate",
-    cy: "someDate"
+    cy: "someDate",
+    listIndent: 0
 }
 
 function comparator(a, b) {
@@ -63,9 +64,7 @@ function createRowDataActiva() {
     // Indent 1
     let sumCy_i1 = '';
     let sumPy_i1 = '';
-
-    let additionalRowDataTest = true;
-
+    let lastRow = {};
 
     activas.sort(comparator).filter(activa => {
         if (activa.finalBalance !== 0 ||
@@ -76,104 +75,127 @@ function createRowDataActiva() {
             return 0;
         }
     }).forEach(activa => {
-        if (additionalRowDataTest) {
-            additionalRowDataTest = false;
-            rowData.push({ name: "Row with additional Data", style: "hero", gain: 'zero' })
-        }
+
         let finalBalance = activa.finalBalance;
         let name = activa.name;
         let number = activa.number;
         let priorBalance = activa.priorBalance;
+        let indent = 0;
 
+        let split = number.split('.');
+        let listCounter = false; // represent the ListNumbering of items 
+        let listIndent = undefined; // indent for columns of List Numbering Alpha:1, Roman:2, Cadinal:3, --:4
 
-        let split = activa.number.split('.');
-        let listCounter = "";
-        let indent = "";
+        let switchColumn = ""; // used for switch case, to see which dataItem fits in the table.
         switch (split.length) {
             // Show Zero : 0
             // Previous Balance: 0
             // Final Balce : 0
             case 1:
+                // AKTIVA
                 listCounter = "";
-                indent = 0;
+                switchColumn = 0;
                 break;
             case 2:
+                listIndent = 1;
                 listCounter = String.fromCharCode(parseInt(alphaArrayCount++) + 64);
+                lastRow = { listIndent: listIndent, balance: sumPy_i0, cy: sumCy_i0 };
                 if (romanArrayCount > 1) {
-                    rowData.push({ balance: sumPy_i0, cy: sumCy_i0 })
+                    rowData.push(lastRow)
                     romanArrayCount = 1;
                     cardinalArrayCount = 1;
                 }
-                indent = 1;
+                switchColumn = 1;
                 break;
             case 3:
+                listIndent = 2;
                 listCounter = toRoman(parseInt(romanArrayCount++));
                 if (cardinalArrayCount > 1) {
-                    rowData.push({ balance: sumPy_i1, cy: sumCy_i1 })
+                    rowData.push({ listIndent: listIndent, balance: sumPy_i1, cy: sumCy_i1 })
                     cardinalArrayCount = 1;
                 }
-                indent = 2;
+                switchColumn = 2;
                 break;
             case 4:
+                listIndent = 3;
                 listCounter = cardinalArrayCount++;
-                indent = 3;
+                switchColumn = 3;
                 break;
             case 5:
+                listIndent = 4;
                 listCounter = "--";
-                indent = 4;
+                switchColumn = 4;
                 break;
             default:
                 listCounter = parseInt(split[3]);
                 listCounter = parseInt(split[split.length - 1]);;
-                indent = 3;
+                // indent = 3;
 
         }
 
+
+
         let row = {
-            indent: indent,
             name: name,
             num: listCounter,
             py: priorBalance,
             cy: finalBalance,
+            indent: indent,
+            listIndent: listIndent,
+            switchColumn: switchColumn,
         }
 
+        // Chcecking for Listcounter if its empty , so we should not indent it.
+        // if (listCounter !== '') {
+        //     row.listIndent = true;
+        //     row.listIndent = listIndent;
+        // }
+
         if (rowData.length == 0) {
+            // This is just to add Aktiva
             rowData.push(aktiva);
-            rowData.push({ cy: 'EUR', py: 'EUR' });
+            rowData.push({ listIndent: 0, indent: 5, cy: 'EUR', py: 'EUR' });
             return;
         }
-        switch (row.indent) {
-            // case 0:
-            //     row = aktiva;
-            //     break;
+
+        // For the rest of the rows we use Switch Cases
+        switch (row.switchColumn) {
             case 1:
-                row = {
-                    indent: 1,
-                    name: name,
-                    num: listCounter,
-                };
-                sumCy_i0 = priorBalance;
-                sumPy_i0 = finalBalance;
+                // row = {
+                //     name: name,
+                //     num: listCounter,
+                //     indent: 0,
+                // }
+                row.name = name;
+                row.num = listCounter;
+                row.indent = 0;
+                row.py = '';
+                row.cy = '';
+
+                sumPy_i0 = priorBalance;
+                sumCy_i0 = finalBalance;
                 consoleLog("createRowDataActiva(): sumPy_Added : ", sumPy_i0)
                 consoleLog("createRowDataActiva(): sumCy_Added : ", sumCy_i0)
                 break;
             case 2:
-                row = {
-                    indent: 2,
-                    name: listCounter,
-                    i2: name,
-                }
-                sumCy_i1 = priorBalance
-                sumPy_i1 = finalBalance
+                row.num = ""
+                row.name = listCounter;
+                row.i2 = name;
+                row.indent = 1;
+
+                sumPy_i1 = priorBalance
+                sumCy_i1 = finalBalance
                 break;
             case 3:
-                row = {
-                    indent: 2,
-                    i2: listCounter,
-                    i3: name,
-                    py: priorBalance,
-                    cy: finalBalance,
-                }
+
+                row.num = ""
+                row.name = "";
+                row.i2 = listCounter;
+                row.i3 = name;
+                row.py = priorBalance;
+                row.cy = finalBalance;
+                row.indent = 2;
+
                 break;
             default:
 
@@ -182,7 +204,13 @@ function createRowDataActiva() {
         // consoleLog("createRowdataActiva() : row ", row.name);
         rowData.push(row);
         // consoleLog('createRowdataActiva()', JSON.stringify(row))
+    });
+    let r = rowData.pop();
+    Object.entries(lastRow).forEach(entry => {
+        const [key, value] = entry;
+        r[key] = value;
     })
+    rowData.push(r)
 }
 
 // function createRowdataActiva() {
