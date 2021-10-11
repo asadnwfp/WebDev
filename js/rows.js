@@ -64,6 +64,8 @@ function createRowDataActiva() {
     let sumCy_i1 = '';
     let sumPy_i1 = '';
 
+    let additionalRowDataTest = true;
+
 
     activas.sort(comparator).filter(activa => {
         if (activa.finalBalance !== 0 ||
@@ -74,6 +76,10 @@ function createRowDataActiva() {
             return 0;
         }
     }).forEach(activa => {
+        if (additionalRowDataTest) {
+            additionalRowDataTest = false;
+            rowData.push({ name: "Row with additional Data", style: "hero", gain: 'zero' })
+        }
         let finalBalance = activa.finalBalance;
         let name = activa.name;
         let number = activa.number;
