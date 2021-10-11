@@ -1,3 +1,12 @@
+var myIcons = {
+    treeOpen: function() {
+        return 'open';
+    },
+    treeClosed: function() {
+        return 'close';
+    },
+};
+
 //Default Col Def
 const defaultColDef = {
     width: 200,
@@ -73,7 +82,55 @@ const defaultColDef = {
                     break;
 
             };
-        }
+        },
+        'underline': params => {
+            let colId = params.colDef.colId;
+            let field = params.colDef.field;
+            let data = params.value;
+            let listIndent = params.data.listIndent;
+            if (listIndent == 2 && (field == 'balance' || field == 'cy') && data != undefined) {
+                if (params.data.cy == "") {
+                    return false;
+                }
+                return true;
+            }
+
+            if (listIndent == 1 || listIndent == 2) {
+                return false;
+            }
+            // let x = 23;
+            // switch (field) {
+            //     case 'py':
+            //         return true;
+            //     case 'cy':
+            //         return true;
+            //     case 'balance':
+            //         if (data == undefined) {
+            //             return false;
+            //         }
+            //         return true;
+
+            // }
+
+        },
+        'underline-dotted': params => {
+            let field = params.colDef.field;
+            let data = params.value;
+            let listIndent = params.data.listIndent;
+            if (listIndent == 1 && (field == 'balance' || field == 'cy') && data != undefined) {
+                if (params.data.cy == "") {
+                    return false;
+                }
+                return true;
+            }
+        },
+        'underline-double': params => {
+            let field = params.colDef.field;
+            let lastChild = params.node.lastChild;
+            if (lastChild && (field == 'balance' || field == 'cy')) {
+                return true;
+            }
+        },
     }
 };
 

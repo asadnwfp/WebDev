@@ -81,6 +81,7 @@ function createRowDataActiva() {
         let number = activa.number;
         let priorBalance = activa.priorBalance;
         let indent = 0;
+        let arrowImage = 'arrow';
 
         let split = number.split('.');
         let listCounter = false; // represent the ListNumbering of items 
@@ -178,10 +179,13 @@ function createRowDataActiva() {
                 consoleLog("createRowDataActiva(): sumCy_Added : ", sumCy_i0)
                 break;
             case 2:
-                row.num = ""
+                row.num = "";
                 row.name = listCounter;
                 row.i2 = name;
                 row.indent = 1;
+
+                row.py = '';
+                row.cy = '';
 
                 sumPy_i1 = priorBalance
                 sumCy_i1 = finalBalance
@@ -210,6 +214,7 @@ function createRowDataActiva() {
         const [key, value] = entry;
         r[key] = value;
     })
+    r.lastRow = true;
     rowData.push(r)
 }
 
