@@ -49,6 +49,11 @@ function comparator(a, b) {
     return 0;
 }
 
+
+/*
+    - The function turns Json Arrya for Aktiva and Passiva into Organized object
+    - depending on the hirarchy it will be stored in the rows.
+*/
 function createJsonObject(jsonArray) {
     let alphaArrayCount = 1;
     let romanArrayCount = 1;
@@ -127,6 +132,8 @@ function createJsonObject(jsonArray) {
                         py: jsonObject.priorBalance,
                         cy: jsonObject.finalBalance,
                         listIndent: false,
+                        indent: 3,
+                        typeIndent: 'alpha',
                         groups: []
                     }
                     jsonObjectMap.push(alpha);
@@ -139,6 +146,8 @@ function createJsonObject(jsonArray) {
                         py: jsonObject.priorBalance,
                         cy: jsonObject.finalBalance,
                         listIndent: false,
+                        indent: 2,
+                        typeIndent: 'roman',
                         groups: []
                     }
                     mapObj = jsonObjectMap[alphaArrayCount - 2];
@@ -152,6 +161,8 @@ function createJsonObject(jsonArray) {
                         py: jsonObject.priorBalance,
                         cy: jsonObject.finalBalance,
                         listIndent: false,
+                        indent: 1,
+                        typeIndent: 'cardinal',
                         groups: []
                     }
                     mapObj = jsonObjectMap[alphaArrayCount - 2].groups[romanArrayCount - 2];
@@ -165,8 +176,36 @@ function createJsonObject(jsonArray) {
     return jsonObjectMap;
 }
 
+// function to create rows for rowData
 function createRowDataFromJsonObject() {
     let jsonArray = createJsonObject(activas);
+    for (const element of jsonArray) {
+
+
+        let data = [];
+        // Alpha -Indent
+        if (element.listIndent) {
+            let row = {
+                num: element.num,
+                name: element.name,
+                indent: element.indent,
+                typeIndent: element.typeIndent,
+            }
+            let rowArray = createRowIndentGroup(element.groups);
+            rowArray.push({ cy: element.cy, py: element.py })
+
+        }
+    }
+}
+// function to create row for groups that have sublevel activity
+function createRowIndentGroup(element) {
+    let row = {};
+
+}
+
+// function to create row for group without sublevel activity
+function createRowSingleGroup(element) {
+
 }
 
 function createRowDataActiva() {
