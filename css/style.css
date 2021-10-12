@@ -1,0 +1,39 @@
+.bold-text {
+    font-weight: 700;
+}
+
+.content {
+    text-align: left;
+    font-size: 0.9em;
+    color: aqua
+}
+
+.rows-in-grid {
+    line-height: 20pt !important;
+    color: blue;
+    background: '#fff';
+    border: '1';
+}
+
+.underline {
+    border-bottom: 3px solid !important;
+    /* text-decoration: underline; */
+    color: red;
+}
+
+.underline-dotted {
+    border-bottom: 3px dotted !important;
+    /* text-decoration: underline; */
+    color: red;
+}
+
+.underline-double {
+    border-bottom: 5px double !important;
+    /* text-decoration: underline; */
+    color: green;
+}
+
+.tree-arrow {
+    background: green;
+    margin-top: 5px;
+}

@@ -70,17 +70,31 @@ let gridOptions = {}
 function setupGrid(rowData) {
 
     gridOptions = {
-
-
-
+        // groupContracted,
+        // // shown on row group when expanded (click to contract)
+        // groupExpanded,
         columnDefs: columnDefs,
         rowData: rowData,
         headerHeight: 70,
         defaultColDef: defaultColDef,
         columnTypes: custColumnTypes,
         debug: false,
-        rowClass: 'rows-in-grid',
+        rowClassRules: {
+            'rows-in-grid': function(params) {
+                return true;
+            },
+        }
 
+
+    };
+
+    var myIcons = {
+        groupContracted: function() {
+            return 'colapse';
+        },
+        groupExpanded: function() {
+            return 'unconlapse';
+        },
     };
 
     const gridDiv = document.querySelector('#myGrid');

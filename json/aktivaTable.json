@@ -1,0 +1,171 @@
+[{
+        "num": "A",
+        "name": "Anlagevermögen",
+        "py": 2784351.34,
+        "cy": 2766849.13,
+        "listIndent": true,
+        "groups": [{
+                "num": "I",
+                "name": "Immaterielle Vermögensgegenstände",
+                "py": 1069,
+                "cy": 869.01,
+                "listIndent": true,
+                "groups": [{
+                        "num": 1,
+                        "name": "Entgeltlich erworbene Konzessionen, gewerbliche Schutzrechte und ähnliche Rechte und Werte sowie Lizenzen an solchen Rechten und Werten",
+                        "py": 1068,
+                        "cy": 868.01,
+                        "listIndent": false,
+                        "groups": []
+                    },
+                    {
+                        "num": 2,
+                        "name": "Geschäfts- oder Firmenwert",
+                        "py": 1,
+                        "cy": 1,
+                        "listIndent": false,
+                        "groups": []
+                    }
+                ]
+            },
+            {
+                "num": "II",
+                "name": "Sachanlagen",
+                "py": 2733282.34,
+                "cy": 2715980.12,
+                "listIndent": true,
+                "groups": [{
+                        "num": 1,
+                        "name": "Grundstücke, grundstücksgleiche Rechte und Bauten einschließlich der Bauten auf fremden Grundstücken",
+                        "py": 2552991.83,
+                        "cy": 2542470.87,
+                        "listIndent": false,
+                        "groups": []
+                    },
+                    {
+                        "num": 2,
+                        "name": "Technische Anlagen und Maschinen",
+                        "py": 131307,
+                        "cy": 127457.96,
+                        "listIndent": false,
+                        "groups": []
+                    },
+                    {
+                        "num": 3,
+                        "name": "Andere Anlagen, Betriebs- und Geschäftsausstattung",
+                        "py": 48983.51,
+                        "cy": 46051.29,
+                        "listIndent": false,
+                        "groups": []
+                    }
+                ]
+            },
+            {
+                "num": "III",
+                "name": "Finanzanlagen",
+                "py": 50000,
+                "cy": 50000,
+                "listIndent": true,
+                "groups": [{
+                        "num": 1,
+                        "name": "Beteiligungen",
+                        "py": 10000,
+                        "cy": 10000,
+                        "listIndent": false,
+                        "groups": []
+                    },
+                    {
+                        "num": 2,
+                        "name": "Wertpapiere des Anlagevermögens",
+                        "py": 40000,
+                        "cy": 40000,
+                        "listIndent": false,
+                        "groups": []
+                    }
+                ]
+            }
+        ],
+        "addDashStyle": true
+    },
+    {
+        "num": "B",
+        "name": "Umlaufvermögen",
+        "py": 733772.51,
+        "cy": 800860.62,
+        "listIndent": true,
+        "groups": [{
+                "num": "I",
+                "name": "Vorräte",
+                "py": 186448.95,
+                "cy": 186621.22,
+                "listIndent": true,
+                "groups": [{
+                        "num": 1,
+                        "name": "Roh-, Hilfs- und Betriebsstoffe",
+                        "py": 109519.65,
+                        "cy": 109519.65,
+                        "listIndent": false,
+                        "groups": []
+                    },
+                    {
+                        "num": 2,
+                        "name": "Unfertige Erzeugnisse, unfertige Leistungen",
+                        "py": 25197.3,
+                        "cy": 25369.57,
+                        "listIndent": false,
+                        "groups": []
+                    },
+                    {
+                        "num": 3,
+                        "name": "Fertige Erzeugnisse und Waren",
+                        "py": 51732,
+                        "cy": 51732,
+                        "listIndent": false,
+                        "groups": []
+                    }
+                ]
+            },
+            {
+                "num": "II",
+                "name": "Forderungen und sonstige Vermögensgegenstände",
+                "py": 293646.95,
+                "cy": 430968.19,
+                "listIndent": true,
+                "groups": [{
+                        "num": 1,
+                        "name": "Forderungen aus Lieferungen und Leistungen",
+                        "py": 210387.23,
+                        "cy": 237938.1,
+                        "listIndent": false,
+                        "groups": []
+                    },
+                    {
+                        "num": 2,
+                        "name": "Sonstige Vermögensgegenstände",
+                        "py": 83259.72,
+                        "cy": 193030.09,
+                        "listIndent": false,
+                        "groups": []
+                    }
+                ]
+            },
+            {
+                "num": "III",
+                "name": "Kassenbestand, Bundesbankguthaben, Guthaben bei Kreditinstituten und Schecks",
+                "py": 253676.61,
+                "cy": 183271.21,
+                "listIndent": false,
+                "groups": []
+            }
+        ],
+        "addDashStyle": true
+    },
+    {
+        "num": "C",
+        "name": "Rechnungsabgrenzungsposten",
+        "py": 26768.8,
+        "cy": 29074.32,
+        "listIndent": false,
+        "groups": []
+    }
+]
