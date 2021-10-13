@@ -107,9 +107,14 @@ const defaultColDef = {
         'underline': params => {
             let field = params.colDef.field;
             let style = params.data.style;
+            let singleElement = params.data.singleElement;
+
+            if ((field == 'py' || field == 'cy') && singleElement) {
+                return true;
+            }
 
             if (style == 'dashed') {
-                if ((field == 'balance' || field == 'cy'))
+                if ((field == 'balance' || field == 'cy' || field == 'py') && params.value != '' && params.value != undefined)
                     return true;
             }
             return false;

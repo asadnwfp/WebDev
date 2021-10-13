@@ -198,7 +198,7 @@ function createRow(element) {
     row.listIndent = element.listIndent;
     row.treeOpenState = element.treeOpenState;
     row.hasTree = element.hasTree;
-    row.style = undefined;
+    row.style = undefined; // Represents the style, for Dashed and dotted line
     row.balance = undefined;
     row.cy = undefined;
     row.py = undefined;
@@ -208,6 +208,10 @@ function createRow(element) {
         rowArray.push(row)
         let indentList = createRowIndentGroup(element.groups)
         indentList.forEach(element => { rowArray.push(element); })
+            // Adding dash style to the last element of the group
+        let dashedStyle = rowArray.pop();
+        dashedStyle.style = 'dashed';
+        rowArray.push(dashedStyle);
         if (element.typeIndent == 'alpha') {
 
             rowArray.push({ cy: element.cy, balance: element.py, style: 'dotted' })
@@ -255,7 +259,7 @@ function reformatJsonArray(data) {
             hasTree: element.hasTree,
             treeOpenState: element.treeOpenState,
             balance: element.balance,
-            style: element.style,
+            style: element.style, // Style for Dotted and Dashed line
             cy: element.cy,
             py: element.py,
             i2: undefined,
@@ -449,8 +453,7 @@ function createRowDataActiva_bak() {
 
         if (rowData.length == 0) {
             // This is just to add Aktiva
-            rowData.push(aktiva);
-            rowData.push({ listIndent: 0, indent: 5, cy: 'EUR', py: 'EUR' });
+
             return;
         }
 
