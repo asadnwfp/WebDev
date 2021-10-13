@@ -1,0 +1,225 @@
+[{
+        "num": "A",
+        "name": "Anlagevermögen",
+        "indent": 3,
+        "typeIndent": "alpha",
+        "listIndent": true
+    },
+    {
+        "num": "I",
+        "name": "Immaterielle Vermögensgegenstände",
+        "indent": 2,
+        "typeIndent": "roman",
+        "listIndent": true
+    },
+    {
+        "num": 1,
+        "name": "Entgeltlich erworbene Konzessionen, gewerbliche Schutzrechte und ähnliche Rechte und Werte sowie Lizenzen an solchen Rechten und Werten",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 868.01,
+        "py": 1068,
+        "state": "close"
+    },
+    {
+        "num": 2,
+        "name": "Geschäfts- oder Firmenwert",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 1,
+        "py": 1,
+        "state": "close"
+    },
+    {
+        "cy": 869.01,
+        "py": 1069,
+        "state": "open"
+    },
+    {
+        "num": "II",
+        "name": "Sachanlagen",
+        "indent": 2,
+        "typeIndent": "roman",
+        "listIndent": true
+    },
+    {
+        "num": 1,
+        "name": "Grundstücke, grundstücksgleiche Rechte und Bauten einschließlich der Bauten auf fremden Grundstücken",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 2542470.87,
+        "py": 2552991.83,
+        "state": "close"
+    },
+    {
+        "num": 2,
+        "name": "Technische Anlagen und Maschinen",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 127457.96,
+        "py": 131307,
+        "state": "close"
+    },
+    {
+        "num": 3,
+        "name": "Andere Anlagen, Betriebs- und Geschäftsausstattung",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 46051.29,
+        "py": 48983.51,
+        "state": "close"
+    },
+    {
+        "cy": 2715980.12,
+        "py": 2733282.34,
+        "state": "open"
+    },
+    {
+        "num": "III",
+        "name": "Finanzanlagen",
+        "indent": 2,
+        "typeIndent": "roman",
+        "listIndent": true
+    },
+    {
+        "num": 1,
+        "name": "Beteiligungen",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 10000,
+        "py": 10000,
+        "state": "close"
+    },
+    {
+        "num": 2,
+        "name": "Wertpapiere des Anlagevermögens",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 40000,
+        "py": 40000,
+        "state": "close"
+    },
+    {
+        "cy": 50000,
+        "py": 50000,
+        "state": "open"
+    },
+    {
+        "cy": 2766849.13,
+        "py": 2784351.34,
+        "state": "open"
+    },
+    {
+        "num": "B",
+        "name": "Umlaufvermögen",
+        "indent": 3,
+        "typeIndent": "alpha",
+        "listIndent": true
+    },
+    {
+        "num": "I",
+        "name": "Vorräte",
+        "indent": 2,
+        "typeIndent": "roman",
+        "listIndent": true
+    },
+    {
+        "num": 1,
+        "name": "Roh-, Hilfs- und Betriebsstoffe",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 109519.65,
+        "py": 109519.65,
+        "state": "close"
+    },
+    {
+        "num": 2,
+        "name": "Unfertige Erzeugnisse, unfertige Leistungen",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 25369.57,
+        "py": 25197.3,
+        "state": "close"
+    },
+    {
+        "num": 3,
+        "name": "Fertige Erzeugnisse und Waren",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 51732,
+        "py": 51732,
+        "state": "close"
+    },
+    {
+        "cy": 186621.22,
+        "py": 186448.95,
+        "state": "open"
+    },
+    {
+        "num": "II",
+        "name": "Forderungen und sonstige Vermögensgegenstände",
+        "indent": 2,
+        "typeIndent": "roman",
+        "listIndent": true
+    },
+    {
+        "num": 1,
+        "name": "Forderungen aus Lieferungen und Leistungen",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 237938.1,
+        "py": 210387.23,
+        "state": "close"
+    },
+    {
+        "num": 2,
+        "name": "Sonstige Vermögensgegenstände",
+        "indent": 1,
+        "typeIndent": "cardinal",
+        "listIndent": false,
+        "balance": 193030.09,
+        "py": 83259.72,
+        "state": "close"
+    },
+    {
+        "cy": 430968.19,
+        "py": 293646.95,
+        "state": "open"
+    },
+    {
+        "num": "III",
+        "name": "Kassenbestand, Bundesbankguthaben, Guthaben bei Kreditinstituten und Schecks",
+        "indent": 2,
+        "typeIndent": "roman",
+        "listIndent": false,
+        "balance": 183271.21,
+        "py": 253676.61,
+        "state": "close"
+    },
+    {
+        "cy": 800860.62,
+        "py": 733772.51,
+        "state": "open"
+    },
+    {
+        "num": "C",
+        "name": "Rechnungsabgrenzungsposten",
+        "indent": 3,
+        "typeIndent": "alpha",
+        "listIndent": false,
+        "balance": 29074.32,
+        "py": 26768.8,
+        "state": "close"
+    }
+]

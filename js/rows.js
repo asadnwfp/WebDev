@@ -131,9 +131,11 @@ function createJsonObject(jsonArray) {
                         name: jsonObject.name,
                         py: jsonObject.priorBalance,
                         cy: jsonObject.finalBalance,
-                        listIndent: false,
+                        listIndent: false, // This is for the internalStructure of the JSON Array if it has further subgroups
                         indent: 3,
                         typeIndent: 'alpha',
+                        treeOpenState: true, // TreeOpenState
+                        hasTree: true,
                         groups: []
                     }
                     jsonObjectMap.push(alpha);
@@ -145,9 +147,11 @@ function createJsonObject(jsonArray) {
                         name: jsonObject.name,
                         py: jsonObject.priorBalance,
                         cy: jsonObject.finalBalance,
-                        listIndent: false,
+                        listIndent: false, // This is for the internalStructure of the JSON Array if it has further subgroups
                         indent: 2,
                         typeIndent: 'roman',
+                        treeOpenState: true,
+                        hasTree: true,
                         groups: []
                     }
                     mapObj = jsonObjectMap[alphaArrayCount - 2];
@@ -160,9 +164,11 @@ function createJsonObject(jsonArray) {
                         name: jsonObject.name,
                         py: jsonObject.priorBalance,
                         cy: jsonObject.finalBalance,
-                        listIndent: false,
+                        listIndent: false, // This is for the internalStructure of the JSON Array if it has further subgroups
                         indent: 1,
                         typeIndent: 'cardinal',
+                        treeOpenState: true,
+                        hasTree: true,
                         groups: []
                     }
                     mapObj = jsonObjectMap[alphaArrayCount - 2].groups[romanArrayCount - 2];
@@ -179,37 +185,129 @@ function createJsonObject(jsonArray) {
 // function to create rows for rowData
 function createRowDataFromJsonObject() {
     let jsonArray = createJsonObject(activas);
-    for (const element of jsonArray) {
+    return createRowIndentGroup(jsonArray); // Returns RowData Set
+}
 
-
-        let data = [];
-        // Alpha -Indent
-        if (element.listIndent) {
-            let row = {
-                num: element.num,
-                name: element.name,
-                indent: element.indent,
-                typeIndent: element.typeIndent,
-            }
-            let rowArray = createRowIndentGroup(element.groups);
-            rowArray.push({ cy: element.cy, py: element.py })
-
-        }
+// Create Single Row
+function createRow(element) {
+    let row = {};
+    row.num = element.num;
+    row.name = element.name;
+    row.indent = element.indent; // tells the level of indentation
+    row.typeIndent = element.typeIndent; // type of Indent Alpha, Roman, Cardinal
+    row.listIndent = element.listIndent;
+    row.treeOpenState = element.treeOpenState;
+    row.hasTree = element.hasTree;
+    row.balance = undefined;
+    row.cy = undefined;
+    row.py = undefined;
+    // Alpha -Indent
+    if (element.listIndent) {
+        let rowArray = [];
+        rowArray.push(row)
+        let indentList = createRowIndentGroup(element.groups)
+        indentList.forEach(element => { rowArray.push(element); })
+        rowArray.push({ cy: element.cy, py: element.py })
+        return rowArray;
+    } else {
+        element.hasTree = false;
+        row.balance = element.cy;
+        row.py = element.py;
+        row.hasTree = element.hasTree;
+        return row;
     }
+
 }
 // function to create row for groups that have sublevel activity
-function createRowIndentGroup(element) {
-    let row = {};
+function createRowIndentGroup(jsonObject) {
+    let data = []; // dataSet of Rows
+    for (const element of jsonObject) {
+        let row = createRow(element);
+        if (row.length != undefined && row.length > 1) {
+            row.forEach(element => {
+                data.push(element);
+            })
+        } else {
+            data.push(row);
+        }
 
+    }
+    return data;
 }
 
-// function to create row for group without sublevel activity
-function createRowSingleGroup(element) {
+function reformatJsonArray(data) {
+    let formatedJsonArray = [];
+    for (element of data) {
 
+        let row = {
+            num: "",
+            name: "",
+            indent: element.indent, // tells the level of indentation
+            typeIndent: element.typeIndent, // type of Indent Alpha, Roman, Cardinal
+            listIndent: element.listIndent,
+            hasTree: element.hasTree,
+            treeOpenState: element.treeOpenState,
+            balance: element.balance,
+            cy: element.cy,
+            py: element.py,
+            i2: undefined,
+            i3: undefined
+        };
+
+        switch (element.typeIndent) {
+            case 'alpha':
+                row.num = element.num;
+                row.name = element.name;
+                checkOpenCloseState(element, row);
+                break;
+            case 'roman':
+                row.name = element.num;
+                row.i2 = element.name;
+                checkOpenCloseState(element, row);
+                break;
+            case 'cardinal':
+                row.i2 = element.num;
+                row.i3 = element.name;
+                checkOpenCloseState(element, row);
+                break;
+        }
+
+        formatedJsonArray.push(row);
+    }
+    return formatedJsonArray;
+}
+
+function checkOpenCloseState(element, row) {
+
+    if (element.treeOpenState && element.hasTree) {
+        row.py = element.py;
+        row.cy = element.cy;
+        row.balance = '';
+    } else {
+        row.balance = element.py;
+        row.cy = element.cy;
+    }
+
+    let x = 123;
 }
 
 function createRowDataActiva() {
-    createJsonObject(activas);
+    // createJsonObject(activas);
+    let data = createRowDataFromJsonObject();
+    let formatedJsonArray = reformatJsonArray(data);
+
+    // data.forEach(element =>{
+
+    // })
+    consoleLog("createRowDataActiva() : Data", JSON.stringify(data));
+
+    rowData = formatedJsonArray;
+
+}
+
+function createRowDataActiva_bak() {
+    // createJsonObject(activas);
+    createRowDataFromJsonObject();
 
     let alphaArrayCount = 1;
     let romanArrayCount = 1;

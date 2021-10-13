@@ -66,6 +66,10 @@ consoleLog('passivas.length', passivas.length);
 
 //setup the grid after the page has finished loading
 let gridOptions = {}
+    // CustomColumnTypes
+const custColumnTypes = {
+    editableColumn: { editable: true }
+};
 
 function setupGrid(rowData) {
 
