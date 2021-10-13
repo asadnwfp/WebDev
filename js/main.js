@@ -77,17 +77,21 @@ function setupGrid(rowData) {
         // groupContracted,
         // // shown on row group when expanded (click to contract)
         // groupExpanded,
+        rowStyle: {
+            background: '#fff',
+            border: '0'
+        },
         columnDefs: columnDefs,
         rowData: rowData,
         headerHeight: 70,
         defaultColDef: defaultColDef,
         columnTypes: custColumnTypes,
         debug: false,
-        rowClassRules: {
-            'rows-in-grid': function(params) {
-                return true;
-            },
-        }
+        // rowClassRules: {
+        //     'rows-in-grid': function(params) {
+        //         return true;
+        //     },
+        // }
 
 
     };

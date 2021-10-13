@@ -198,6 +198,7 @@ function createRow(element) {
     row.listIndent = element.listIndent;
     row.treeOpenState = element.treeOpenState;
     row.hasTree = element.hasTree;
+    row.style = undefined;
     row.balance = undefined;
     row.cy = undefined;
     row.py = undefined;
@@ -207,7 +208,13 @@ function createRow(element) {
         rowArray.push(row)
         let indentList = createRowIndentGroup(element.groups)
         indentList.forEach(element => { rowArray.push(element); })
-        rowArray.push({ cy: element.cy, balance: element.py })
+        if (element.typeIndent == 'alpha') {
+
+            rowArray.push({ cy: element.cy, balance: element.py, style: 'dotted' })
+        } else if (element.typeIndent == 'roman') {
+
+            rowArray.push({ cy: element.cy, balance: element.py, style: 'dashed' })
+        }
         return rowArray;
     } else {
         element.hasTree = false;
@@ -248,11 +255,13 @@ function reformatJsonArray(data) {
             hasTree: element.hasTree,
             treeOpenState: element.treeOpenState,
             balance: element.balance,
+            style: element.style,
             cy: element.cy,
             py: element.py,
             i2: undefined,
             i3: undefined
         };
+
 
         switch (element.typeIndent) {
             case 'alpha':

@@ -68,105 +68,71 @@ const defaultColDef = {
                 }
         }
 
-
     },
 
 
-    // cellClassRules: {
-    //     'bold-text': params => {
+    cellClassRules: {
+        'bold-text': params => {
 
-    //         colId = params.colDef.colId;
-    //         indent = params.data.indent;
-    //         switch (indent) {
-    //             case 0:
-    //                 return true;
+            colId = params.colDef.colId;
+            indent = params.data.indent;
+            switch (indent) {
+                case 3:
+                    return true;
 
-    //             case 1:
-    //                 return true;
-    //             case 2:
-    //                 if (colId == 7) {
-    //                     return true;
-    //                 }
+                    // case 1:
+                    //     return true;
+                case 2:
+                    if (colId == 7) {
+                        return true;
+                    }
 
-    //         };
-    //     },
-    //     'content': params => {
-    //         colId = params.colDef.colId;
-    //         field = params.colDef.field;
-    //         indent = params.data.indent;
-    //         if (field == 'py') {
-    //             return false;
-    //         }
-    //         switch (indent) {
-    //             case 2:
-    //                 if (colId == 3) {
-    //                     return true;
-    //                 }
-    //                 break;
+            };
+        },
+        'content': params => {
+            let colId = params.colDef.colId;
+            let field = params.colDef.field;
+            let type = params.data.typeIndent;
+            switch (type) {
+                case 'alpha':
+                case 'roman':
+                    if (colId == 4)
+                        return true;
+                case 'cardinal':
+                    if (colId == 5)
+                        return true;
+                    break;
+            }
+        },
+        'underline': params => {
+            let field = params.colDef.field;
+            let style = params.data.style;
 
-    //             case 3:
-    //                 if (colId == 4) {
-    //                     return true;
-    //                 }
-    //                 break;
+            if (style == 'dashed') {
+                if ((field == 'balance' || field == 'cy'))
+                    return true;
+            }
+            return false;
 
-    //         };
-    //     },
-    //     'underline': params => {
-    //         let colId = params.colDef.colId;
-    //         let field = params.colDef.field;
-    //         let data = params.value;
-    //         let indent = params.data.indent;
-    //         let dashedStyle = params.data.addDashStyle;
+        },
+        'underline-dotted': params => {
+            let field = params.colDef.field;
+            let style = params.data.style;
 
-    //         if (indent == 2 && (field == 'balance' || field == 'cy') && data != undefined) {
-    //             if (params.data.cy == "") {
-    //                 return false;
-    //             }
-    //             return true;
-    //         }
-
-    //         if (dashedStyle && (field == 'cy' || field == 'py') && data != "") {
-    //             return true;
-    //         }
-
-    //         if (indent == 1 || indent == 2) {
-    //             return false;
-    //         }
-    //         // let x = 23;
-    //         // switch (field) {
-    //         //     case 'py':
-    //         //         return true;
-    //         //     case 'cy':
-    //         //         return true;
-    //         //     case 'balance':
-    //         //         if (data == undefined) {
-    //         //             return false;
-    //         //         }
-    //         //         return true;
-
-    //         // }
-
-    //     },
-    //     'underline-dotted': params => {
-    //         let field = params.colDef.field;
-    //         let data = params.value;
-    //         let indent = params.data.indent;
-    //         if (indent == 1 && (field == 'balance' || field == 'cy') && data != undefined) {
-    //             if (params.data.cy == "") {
-    //                 return false;
-    //             }
-    //             return true;
-    //         }
-    //     },
-    //     'underline-double': params => {
-    //         let field = params.colDef.field;
-    //         let lastChild = params.node.lastChild;
-    //         if (lastChild && (field == 'balance' || field == 'cy')) {
-    //             return true;
-    //         }
-    //     },
-    // }
+            if (style == 'dotted') {
+                if ((field == 'balance' || field == 'cy'))
+                    return true;
+            }
+            return false;
+        },
+        'underline-double': params => {
+            let field = params.colDef.field;
+            let lastChild = params.node.lastChild;
+            if (lastChild && (field == 'balance' || field == 'cy')) {
+                return true;
+            }
+        },
+    }
 };
 
 
@@ -177,7 +143,12 @@ const columnDefs = [
     // { field: "numActiva", colId: "1" , colSpan: params => params.columnApi.getColumn("indent"). },
     { cellRenderer: treeCellRenderer, field: "tree", colId: "1", },
     { field: "num", colId: "2", },
-    { field: "name", colId: "3" },
+    {
+        field: "name",
+        colId: "3",
+        wrapText: true,
+        autoHeight: true,
+    },
     {
         field: "i2",
         colId: "4",
