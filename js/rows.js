@@ -207,12 +207,12 @@ function createRow(element) {
         rowArray.push(row)
         let indentList = createRowIndentGroup(element.groups)
         indentList.forEach(element => { rowArray.push(element); })
-        rowArray.push({ cy: element.cy, py: element.py })
+        rowArray.push({ cy: element.cy, balance: element.py })
         return rowArray;
     } else {
         element.hasTree = false;
-        row.balance = element.cy;
         row.py = element.py;
+        row.cy = element.cy;
         row.hasTree = element.hasTree;
         return row;
     }
@@ -268,7 +268,7 @@ function reformatJsonArray(data) {
             case 'cardinal':
                 row.i2 = element.num;
                 row.i3 = element.name;
-                checkOpenCloseState(element, row);
+                // checkOpenCloseState(element, row);
                 break;
         }
 
@@ -279,13 +279,15 @@ function reformatJsonArray(data) {
 
 function checkOpenCloseState(element, row) {
 
-    if (element.treeOpenState && element.hasTree) {
+    if (element.treeOpenState &&
+        element.hasTree &&
+        (element.typeIndent == 'roman' ||
+            element.typeIndent == 'alpha')) {
         row.py = element.py;
-        row.cy = element.cy;
         row.balance = '';
     } else {
         row.balance = element.py;
-        row.cy = element.cy;
+        row.py = '';
     }
 
     let x = 123;

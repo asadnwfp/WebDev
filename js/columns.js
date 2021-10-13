@@ -16,91 +16,62 @@ const defaultColDef = {
         let indent = params.data.indent;
         let typeIndent = params.data.typeIndent;
 
-        if (cid == '0' || cid == '1_1' || cid == '1') {
-            params.column.actualWidth = 60;
-            params.column.minWidth = 45;
-            return 0;
-        } else {
-            switch (typeIndent) {
-                case 'alpha':
-                    switch (field) {
-                        case 'indent':
-                        case 'tree':
-                        case 'num':
-                            params.column.actualWidth = 60;
-                            params.column.minWidth = 45;
-                            break;
-                        case 'name':
-                            return indent;
-                    }
-                case 'roman':
-                    switch (field) {
-                        case 'indent':
-                        case 'tree':
-                        case 'num':
-                        case 'name':
-                            params.column.actualWidth = 60;
-                            params.column.minWidth = 45;
-                            break;
-                        case 'i2':
-                            return indent;
-                    }
-                case 'cardinal':
-                    switch (field) {
-                        case 'indent':
-                        case 'tree':
-                        case 'num':
-                        case 'name':
-                        case 'i2':
-                            params.column.actualWidth = 60;
-                            params.column.minWidth = 45;
-                            break;
-                        case 'i3':
-                            params.column.actualWidth = 350;
-                            params.column.minWidth = 100;
-                            return indent;
-                    }
-            }
+        switch (cid) {
+            case '0':
+            case '1':
+            case '2':
+                params.column.actualWidth = 50;
+                params.column.minWidth = 45;
+                return 0;
+
+            case '6':
+            case '7':
+            case '8':
+                params.column.actualWidth = 130;
+                params.column.minWidth = 100;
+                return 0;
         }
 
-        let x = 123;
+        switch (typeIndent) {
+            case 'alpha':
+                switch (field) {
+                    case 'indent':
+                    case 'tree':
+                    case 'num':
+                        params.column.actualWidth = 50;
+                        params.column.minWidth = 45;
+                        return 0;
+                    case 'name':
+                        return indent;
+                }
+            case 'roman':
+                switch (field) {
+                    case 'num':
+                    case 'name':
+                        params.column.actualWidth = 50;
+                        params.column.minWidth = 45;
+                        return 0;
+                    case 'i2':
+                        return indent;
+                }
+            case 'cardinal':
+                switch (field) {
+                    case 'name':
+                    case 'i2':
+                        params.column.actualWidth = 50;
+                        params.column.minWidth = 45;
+                        return 0;
+                    case 'i3':
+                        params.column.actualWidth = 450;
+                        params.column.minWidth = 200;
+                        return indent;
+                }
+        }
+
 
     },
 
-    // colSpan: params => 
-    // {
-    // let cid = params.column.colId;
-    // let field = params.column.userProvidedColDef.field;
-    // let listIndent = params.data.listIndent;
 
-    // if (cid == '0' || listIndent == cid) {
-    //     params.column.actualWidth = 60;
-    //     params.column.minWidth = 45;
-    //     return 0;
-    // } else if (parseInt(cid) == listIndent + 1) {
-    //     switch (listIndent) {
-    //         case 0:
-
-    //             return 4;
-    //         case 1:
-    //             return 3;
-    //         case 2:
-    //             return 2;
-    //         case 3:
-    //             return 1;
-    //         default:
-    //             return 1;
-
-    //     }
-    // } else if (field == 'py' && listIndent == 0) {
-    //     // for EUR and Date CellSpan
-    //     return 2;
-    // }
-
-    // // DefaultCase for all
-    // return 0;
-
-    // },
     // cellClassRules: {
     //     'bold-text': params => {
 
@@ -202,26 +173,26 @@ const defaultColDef = {
 
 // let the grid know which columns and what data to use
 const columnDefs = [
-    { field: "indent", colId: "0", width: 80 },
+    { field: "indent", colId: "0", },
     // { field: "numActiva", colId: "1" , colSpan: params => params.columnApi.getColumn("indent"). },
-    { cellRenderer: treeCellRenderer, field: "tree", colId: "1", width: 100 },
-    { field: "num", colId: "1", },
-    { field: "name", colId: "2" },
+    { cellRenderer: treeCellRenderer, field: "tree", colId: "1", },
+    { field: "num", colId: "2", },
+    { field: "name", colId: "3" },
     {
         field: "i2",
-        colId: "3",
+        colId: "4",
         wrapText: true,
         autoHeight: true,
     },
     {
         field: "i3",
-        colId: "4",
+        colId: "5",
         wrapText: true,
         autoHeight: true,
     },
-    { field: "py", colId: "4", type: 'custColumnTypes', },
-    { field: "balance", colId: "5", type: 'custColumnTypes', },
-    { field: "cy", colId: "6", type: 'custColumnTypes', },
+    { field: "py", colId: "6", type: 'custColumnTypes', },
+    { field: "balance", colId: "7", type: 'custColumnTypes', },
+    { field: "cy", colId: "8", type: 'custColumnTypes', },
 
 ];
 
