@@ -146,7 +146,7 @@ const defaultColDef = {
 const columnDefs = [
     { field: "indent", colId: "0", },
     // { field: "numActiva", colId: "1" , colSpan: params => params.columnApi.getColumn("indent"). },
-    { cellRenderer: treeCellRenderer, field: "tree", colId: "1", },
+    { cellRenderer: 'treeCellRenderer', field: "tree", colId: "1", },
     { field: "num", colId: "2", },
     {
         field: "name",
@@ -171,14 +171,3 @@ const columnDefs = [
     { field: "cy", colId: "8", type: 'custColumnTypes', },
 
 ];
-
-// Creating Tree Collapse and Uncollapse Arrows.
-function treeCellRenderer(params) {
-    var treeClosed =
-        '<img border="0" width="50" height="30" class="tree-arrow" src="../assets/images/tree-closed.svg">';
-    var treeOpen =
-        '<img border="0" width="50" height="30"  src="../assets/images/tree-open.svg">';
-    return (
-        '<span style="cursor: default;">' + treeClosed + ' </span>'
-    );
-}

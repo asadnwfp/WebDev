@@ -81,10 +81,14 @@ function setupGrid(rowData) {
             background: '#fff',
             border: '0'
         },
+        enableRowGroup: true,
         columnDefs: columnDefs,
         rowData: rowData,
         headerHeight: 70,
         defaultColDef: defaultColDef,
+        components: {
+            treeCellRenderer: TreeCellRenderer,
+        },
         columnTypes: custColumnTypes,
         debug: false,
         // rowClassRules: {
