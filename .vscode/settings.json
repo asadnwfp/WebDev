@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "Ag-Grid"
+    "liveServer.settings.multiRootWorkspaceName": "Ag-Grid",
+    "editor.guides.bracketPairs":true
 }

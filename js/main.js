@@ -86,8 +86,11 @@ function setupGrid(rowData) {
         rowData: rowData,
         headerHeight: 70,
         defaultColDef: defaultColDef,
+
+        enableCellChangeFlash: true,
         components: {
             treeCellRenderer: TreeCellRenderer,
+            totalValueRenderer: TotalValueRenderer,
         },
         columnTypes: custColumnTypes,
         debug: false,

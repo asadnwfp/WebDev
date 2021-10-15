@@ -37,3 +37,8 @@
     background: green;
     margin-top: 5px;
 }
+
+.rightAlighValues {
+    text-align: right;
+    color: cadetblue;
+}

@@ -137,14 +137,33 @@ const defaultColDef = {
                 return true;
             }
         },
+        "rightAlighValues": params => {
+            let field = params.colDef.field;
+            switch (field) {
+                case 'py':
+                case 'cy':
+                case 'balance':
+
+                    return true;
+                default:
+                    return false;
+            }
+        },
     }
 };
 
 
 
 // let the grid know which columns and what data to use
-const columnDefs = [
-    { field: "indent", colId: "0", },
+const columnDefs = [{
+        field: "indent",
+        colId: "0",
+        cellRenderer: 'totalValueRenderer',
+        cellRendererParams: {
+            treeOpen: 'tree-open.svg', // Complementing the Cell Renderer parameters
+            treeClose: 'tree-close.svg', // Complementing the Cell Renderer parameters
+        },
+    },
     // { field: "numActiva", colId: "1" , colSpan: params => params.columnApi.getColumn("indent"). },
     { cellRenderer: 'treeCellRenderer', field: "tree", colId: "1", },
     { field: "num", colId: "2", },
