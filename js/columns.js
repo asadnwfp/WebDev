@@ -152,7 +152,10 @@ const defaultColDef = {
     }
 };
 
-
+function onBtnClick(e){
+    console.log('This is e: ' , e)
+    let x = 123;
+}
 
 // let the grid know which columns and what data to use
 const columnDefs = [{
@@ -162,6 +165,8 @@ const columnDefs = [{
         cellRendererParams: {
             treeOpen: 'tree-open.svg', // Complementing the Cell Renderer parameters
             treeClose: 'tree-close.svg', // Complementing the Cell Renderer parameters
+            onClick: this.onBtnClick.bind(this),
+        label: 'Click 2',
         },
     },
     // { field: "numActiva", colId: "1" , colSpan: params => params.columnApi.getColumn("indent"). },

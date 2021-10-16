@@ -1,10 +1,10 @@
 class TreeCellRenderer {
     constructor() {
-            console.log('TreeCellRenderer : const')
+            // this.consoleMessage('TreeCellRenderer : const')
         }
         // Creating Tree Collapse and Uncollapse Arrows.
     init(params) {
-        console.log('TreeCellRenderer : Init')
+        this.consoleMessage('TreeCellRenderer : Init')
             // create the cell
         this.eGui = document.createElement('div');
         this.treeClosed =
@@ -27,7 +27,7 @@ class TreeCellRenderer {
         // this.eButton.innerHTML = this.cellValue;
 
         this.eventListenerClick = () => {
-            console.log("EventListener : Button")
+            this.consoleMessage("EventListener : Button",true)
                 // if (params.data.treeOpenState) {
                 //     params.data.treeOpenState = false;
                 //     params.valueFormatted = this.treeClosed;
@@ -44,13 +44,13 @@ class TreeCellRenderer {
 
             // this.eButton.addEventListener('onmouseover', event => {
             //     this.stateChangeTreeEventGui(params);
-            //     console.log('mouseIn')
+            //     this.consoleMessage('mouseIn')
             // }, false)
 
             // this.eButton.addEventListener('onmouseout', event => {
             //     params.data.treeOpenState = false
             //     this.stateChangeTreeEventGui(params);
-            //     console.log('mouseOut')
+            //     this.consoleMessage('mouseOut')
             // }, false)
         }
 
@@ -73,22 +73,22 @@ class TreeCellRenderer {
     }
 
     getGui() {
-        console.log('TreeCellRenderer : getGui()')
+        this.consoleMessage('TreeCellRenderer : getGui()')
         return this.eGui;
     }
 
     // gets called whenever the cell refreshes
     refresh(params) {
-        console.log('TreeCellRenderer : refresh()')
+        this.consoleMessage('TreeCellRenderer : refresh()', true)
             // set value into cell again
         this.eButton = this.stateChangeTreeEventGui(params);
         // return true to tell the grid we refreshed successfully
-        return true;
+        return false;
     }
 
     // gets called when the cell is removed from the grid
     destroy() {
-        console.log('TreeCellRenderer : destroy()')
+        this.consoleMessage('TreeCellRenderer : destroy()', true)
             // do cleanup, remove event listener from button
         if (this.eButton) {
             // check that the button element exists as destroy() can be called before getGui()
@@ -99,6 +99,12 @@ class TreeCellRenderer {
 
     getValueToDisplay(params) {
         return params.valueFormatted ? params.valueFormatted : params.value;
+    }
+
+    consoleMessage(message,debug=false){
+        if(debug){
+            console.log(message);
+        }
     }
 
 }
