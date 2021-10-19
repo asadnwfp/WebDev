@@ -9,7 +9,7 @@ class TotalValueRenderer {
         this.treeClose = params.treeClose;
         this.value = params.value;
         this.treeState = params.data.treeOpenState;
-        this.onClick = params.onClick
+        // this.onClick() = params.onClick
         // get references to the elements we want
         this.updateImage();
         this.eButton = this.eGui;
@@ -18,16 +18,16 @@ class TotalValueRenderer {
             // alert(`medals won!`)
             if (this.state) {
                 this.state = false;
-                // this.updateImage(false)
+                this.updateImage()
             } else {
                 this.state = true;
-                // this.updateImage(true)
+                this.updateImage()
             }
-            this.consoleMessage("Clickd.",true);
+            this.consoleMessage("Clickd.", true);
 
         };
         // this.eButton.addEventListener('click', this.eventListener);
-        this.eButton.addEventListener('click', this.onClick);
+        this.eButton.addEventListener('click', this.onClickEventListner());
     }
 
     getGui() {
@@ -44,16 +44,18 @@ class TotalValueRenderer {
         imageElement.className = "tree-arrow";
         imageElement.width = '30';
         imageElement.height = '30';
+        this.eGui.innerHTML = '';
         this.eGui.appendChild(imageElement);
     }
 
     // gets called whenever the cell refreshes
     refresh(params) {
         console.log("totalRefresh");
-        this.value += 1;
+        this.value += params.value;
         // return true to tell the grid we refreshed successfully
+        this.state = params.data.treeOpenState;
         this.eGui.innerHTML = '';
-        this.updateImages(params.data.treeOpenState);
+        this.updateImages();
         return true;
     }
 
@@ -62,25 +64,42 @@ class TotalValueRenderer {
         // do cleanup, remove event listener from button
         if (this.eButton) {
             // check that the button element exists as destroy() can be called before getGui()
-            this.eButton.removeEventListener('click', this.eventListener);
+            this.eButton.removeEventListener('click', this.onClickEventListner);
         }
     }
 
-    onClick(e) {
-        if (this.params.onClick instanceof Function) {
-          // put anything into params u want pass into parents component
-          const params = {
-            event: $event,
-            rowData: this.params.node.data
-            // ...something
-          }
-          this.params.onClick(params);
-    
+    onClickEventListner() {
+        // alert(`medals won!`)
+        if (this.state) {
+            this.state = false;
+            this.updateImage()
+        } else {
+            this.state = true;
+            this.updateImage()
         }
-      }
+        this.consoleMessage("Clickd.", true);
+    }
 
-    consoleMessage(message,debug=false){
-        if(debug){
+    onClick(e) {
+        // if (this.params.onClick instanceof Function) {
+        //     // put anything into params u want pass into parents component
+        //     const params = {
+        //         event: $event,
+        //         rowData: this.params.node.data
+        //             // ...something
+        //     }
+        //     this.params.onClick(params);
+
+        //     this.consoleMessage("X is inside Onclick", true);
+        // }
+        let field = gridOptions.columnDefs.field;
+
+        this.consoleMessage("X is outside Onclick", true);
+
+    }
+
+    consoleMessage(message, debug = false) {
+        if (debug) {
             console.log(message);
         }
     }

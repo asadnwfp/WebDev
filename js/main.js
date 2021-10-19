@@ -91,6 +91,8 @@ function setupGrid(rowData) {
         components: {
             treeCellRenderer: TreeCellRenderer,
             totalValueRenderer: TotalValueRenderer,
+            testRenderer: TestRenderer,
+            daysFrostRenderer: DaysFrostRenderer,
         },
         columnTypes: custColumnTypes,
         debug: false,

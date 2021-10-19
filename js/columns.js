@@ -9,7 +9,8 @@ var myIcons = {
 
 //Default Col Def
 const defaultColDef = {
-    editable: false,
+    editable: true,
+    flex: 1,
     colSpan: params => {
         let cid = params.column.colId;
         let field = params.column.userProvidedColDef.field;
@@ -152,13 +153,68 @@ const defaultColDef = {
     }
 };
 
-function onBtnClick(e){
-    console.log('This is e: ' , e)
+function onBtnClick(e) {
+    console.log('This is e: ', e)
     let x = 123;
 }
 
+function gridTree() {
+    gridOptions.api.forEachNode((rowNode) => {
+        let treeOpenState = rowNode.data.treeOpenState;
+        if (rowNode.data.hasTree) {
+            treeOpenState = treeOpenState ? false : true;
+            rowNode.setDataValue('0-1', treeOpenState);
+            let x = 123;
+        }
+    });
+    // gridOptions.api.forEachNode(rowNode => {
+    //     let y = 123;
+    // });
+}
+
+let count = 0;
+
+function testRenderer() {
+    gridOptions.api.forEachNode((rowNode) => {
+        let tree = rowNode.data.treeOpenState ? false : true;
+        // rowNode.setDataValue('0-1', count++);
+        if (rowNode.data.hasTree) {
+            rowNode.setDataValue('1', tree);
+            rowNode.setDataValue('0-1', tree);
+        }
+
+        let data = rowNode.data;
+        data.tree = tree;
+        data.treeOpenState = data.tree;
+        rowNode.setData(data);
+        // gridOptions.api.redrawRows()
+    });
+}
+
+function frostierYear(extraDaysFrost) {
+    // iterate over the rows and make each "days of air frost"
+    gridOptions.api.forEachNode((rowNode) => {
+        rowNode.setDataValue(
+            '0_2',
+            extraDaysFrost + 1
+        );
+    });
+};
+
 // let the grid know which columns and what data to use
 const columnDefs = [{
+        field: 'Days',
+        colId: '0_2',
+        width: 233,
+        // valueGetter: (params) => { return params.node.rowIndex; },
+        cellRenderer: 'daysFrostRenderer', // Component Cell Renderer
+    },
+    {
+        field: 'test',
+        colId: '0-1',
+        cellRenderer: 'testRenderer',
+    },
+    {
         field: "indent",
         colId: "0",
         cellRenderer: 'totalValueRenderer',
@@ -166,7 +222,7 @@ const columnDefs = [{
             treeOpen: 'tree-open.svg', // Complementing the Cell Renderer parameters
             treeClose: 'tree-close.svg', // Complementing the Cell Renderer parameters
             onClick: this.onBtnClick.bind(this),
-        label: 'Click 2',
+            label: 'Click 2',
         },
     },
     // { field: "numActiva", colId: "1" , colSpan: params => params.columnApi.getColumn("indent"). },
