@@ -81,6 +81,14 @@ function setupGrid(rowData) {
             background: '#fff',
             border: '0'
         },
+        getRowClass: params => {
+
+            if (params.data.treeOpenState) {
+                return 'showRow';
+            } else {
+                return ['ag-row.hideRow']
+            }
+        },
         enableRowGroup: true,
         columnDefs: columnDefs,
         rowData: rowData,

@@ -42,3 +42,11 @@
     text-align: right;
     color: cadetblue;
 }
+
+.showRow {
+    display: block;
+}
+
+.ag-row.hideRow {
+    display: none;
+}

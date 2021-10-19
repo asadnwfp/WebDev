@@ -9,7 +9,7 @@ var myIcons = {
 
 //Default Col Def
 const defaultColDef = {
-    editable: true,
+    editable: false,
     flex: 1,
     colSpan: params => {
         let cid = params.column.colId;
@@ -212,6 +212,7 @@ const columnDefs = [{
     {
         field: 'test',
         colId: '0-1',
+        valueGetter: (params) => { return params.node.rowIndex; },
         cellRenderer: 'testRenderer',
     },
     {
