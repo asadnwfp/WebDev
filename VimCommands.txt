@@ -1,0 +1,90 @@
+Moving :
+    j: Down
+    k: UP
+    L: left
+    h: right
+    
+    w: word at a time
+    b: backward ward at time
+
+    :200 : goto line 200
+    0: Beginning of the line
+    ^: Beginning to the first word on line.
+    0w: Combo to replicate ^
+
+    $: last charcter of the line
+
+    W: Ignores EveryThing till next Space
+    B: Backward of W
+
+    t: is like GoTO followed by a character on the line
+    f: same like t, but will be on the character.
+    %: toggle between Brackets
+
+    {: BlockCode Up
+    }: Block Code down
+
+    *: toggle between the same word on the document and find next instant.
+
+    ;: Next instance. find some thing with t, but require the next instant use semicolon.
+
+    zz: Center the cursor.
+
+Insert Mode
+    i: Insert Mode, at the point of the cursor.
+    I: Insert Mode, Beginning of the line.
+
+    a: Insert Mode, one Right to the cursor.
+    A: Insert Mode, End of the line. 
+
+    o: New Line followed by Insert Mode
+    O: New Line followed by Insert Mode
+    
+    x: delete, at the point of the cursor.
+    dd: delete whole line / Cut
+    D: delete rest of the line from the point of the cursor and turn on Insert Mode.
+
+    G: Bottom
+    gg: TOP
+
+   u: Undo
+   ^R: Redo (Control+r ) 
+   .: Redo what you just did.
+
+   Copy/Past
+   yy: Yank (Copy)
+   p: paste Bellow
+   P: paste Above
+
+   Visual Mode
+   V: visualMode : line
+   v: visualMode : 
+   ^v: visual Mode : Block : (Cntrl + V)
+
+   c: change or replace (cw: will change a word)
+
+Indentation : 
+   >: Indent to right.
+   <: Indent to left. 
+Random:
+    ~: capatilse toggle character.
+    .: redoes the last thing you do (period .)
+    r: replace the letter (Single Character.)
+    R: InserMode wiht cursor eating the words.
+Macros
+    use 'ct' combo to choose on the line, till where you want to change.
+    use 'dt' combo to choose on the line, till where you want to delete.
+
+    Macros: 'q' to start the macro recording forllowed by a char to save e.g 'w'
+
+
+    
+    const abc = [
+        'one' HelloWrod
+        'two' HelloWrod
+        'three' HelloWrod
+        'one' HelloWrod
+        'two' HelloWrod
+        'three' HelloWrod
+        'three' HelloWrod
+    ]
